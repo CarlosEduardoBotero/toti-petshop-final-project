@@ -1,0 +1,58 @@
+.app-layout {
+  margin-top: 60px;
+}
+
+.nav-bar-container {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  left: 0;
+  right: 0;
+  background-color: rgb(57, 134, 57);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px,
+    rgb(0 0 0 / 14%) 0px 4px 5px 0px, rgb(0 0 0 / 12%) 0px 1px 10px 0px;
+}
+
+.nav-bar-title-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgb(231, 231, 231);
+}
+
+.nav-bar-paw-icon {
+  font-size: 30px;
+  color: rgb(92, 74, 53);
+}
+
+.nav-bar-navlink-container {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-bar-container a {
+  margin: 7px 5px;
+}
+
+.nav-bar-icon-container {
+  padding: 7px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+}
+
+.active {
+  background-color: rgba(169, 209, 169, 0.267);
+  transition: all 350ms ease;
+  border-radius: 7px;
+}
+
+.nav-bar-icon {
+  font-size: 30px;
+  color: rgb(194, 229, 194);
+}
