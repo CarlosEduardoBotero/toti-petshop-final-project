@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { FaDog } from "react-icons/fa";
 import { FcAssistant } from "react-icons/fc";
+import AdoptaMe from "./pages/adoptaMe/AdoptaMe";
 const App = () => {
   return (
     <BrowserRouter>
@@ -15,7 +16,7 @@ const App = () => {
           }
         />
         <Route path="/acessórios" element={<p>acessórios</p>} />
-        <Route path="/adote-me" element={<p>adote</p>} />
+        <Route path="/adote-me" element={<AdoptaMe></AdoptaMe>} />
         <Route path="/cerca-de" element={<p>cerca de</p>} />
       </Routes>
     </BrowserRouter>
