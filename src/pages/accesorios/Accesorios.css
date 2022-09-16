@@ -1,0 +1,45 @@
+.Accesorios-geral {
+  background-color: chartreuse;
+  text-align: center;
+}
+.complemento-portada {
+  text-align: center;
+}
+
+.muito-mais {
+  list-style: none;
+}
+.variedade {
+  color: blueviolet;
+}
+.Accessorio-foto {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.Accesotios-card {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+}
+.Accesorios-bnt {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+}
+.Accesorios-boton {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
