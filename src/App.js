@@ -1,22 +1,25 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { FaDog } from "react-icons/fa";
-import { FcAssistant } from "react-icons/fc";
+import NavBar from "./layouts/NavBar/NavBar";
+
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <p>
-              home <FaDog className="icon" />
-            </p>
-          }
-        />
-        <Route path="/acessórios" element={<p>acessórios</p>} />
-        <Route path="/adote-me" element={<p>adote</p>} />
-        <Route path="/cerca-de" element={<p>cerca de</p>} />
+        <Route element={<NavBar />}>
+          <Route
+            path="/"
+            element={
+              <h1 style={{ height: "200vh" }}>
+                home <FaDog className="icon" />
+              </h1>
+            }
+          />
+          <Route path="/acessorios" element={<p>acessórios</p>} />
+          <Route path="/adote-me" element={<p>adote</p>} />
+          <Route path="/cerca-de" element={<p>cerca de</p>} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );
