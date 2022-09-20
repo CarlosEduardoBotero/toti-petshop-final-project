@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.homelogo h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}
+
+.homebarrauno {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(117, 230, 117);
+  padding: 1em;
+}
+
+.homecep {
+  border: 1px solid whitesmoke;
+  border-radius: 0.3em;
+  padding: 0.3em;
+}
+
+form input,
+form button {
+  font-size: 1.2em;
+  border-radius: 0.2em;
+  border: none;
+  padding: 0.2;
+}
+form button {
+  cursor: pointer;
+  background: none;
+  color: whitesmoke;
+}
+.home_carusel {
+  position: relative;
+  padding: 15px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.home__gallery {
+  overflow-x: auto;
+}
+.home_img_gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 15px;
+}
+.arrow-left-control,
+.arrow-right-control {
+  position: absolute;
+  top: 125px;
+  left: 0;
+  right: auto;
+  bottom: 125px;
+  font-size: 20px;
+  line-height: 250px;
+  width: 40px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(to left, transparent 0%, green 200%);
+  opacity: 0.1;
+  transition: all 600ms ease-in-out;
+}
+.arrow-right-control {
+  left: auto;
+  right: 0;
+  background: linear-gradient(to right, transparent 0%, green 200%);
+}
+
+.arrow-left-control:hover,
+.arrow-right-control:hover {
+  opacity: 1;
+}
+
+.item {
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  opacity: 0.6;
+  transition: all 600ms ease-in-out;
+}
+.curren-item {
+  opacity: 1;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.home_img_gallery::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.home_img_gallery {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
