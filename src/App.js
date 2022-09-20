@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { FaDog } from "react-icons/fa";
 import AdoptaMe from "./pages/adoptaMe/AdoptaMe";
-import NavBar from "./layouts/NavBar"
+import NavBar from "./layouts/NavBar/NavBar"
 const App = () => {
   return (
     <BrowserRouter>

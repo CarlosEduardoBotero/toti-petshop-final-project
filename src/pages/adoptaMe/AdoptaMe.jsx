@@ -1,9 +1,28 @@
 import "./AdoptaMe.css";
 import caes from "../adoptaMe/img/dog.jpg";
 import gatos from "../adoptaMe/img/cat.jpg";
-import filhote from "../adoptaMe/img/filhote.jpg";
+import filhote from "../adoptaMe/img/dogs/filhote.jpg";
+import AdoptaMeCard from "./AdoptaMeCard";
+import { useEffect, useState } from "react";
 
 const AdoptaMe = () => {
+  
+  const [photoList, setPhotoList] = useState();
+
+  async function getPets() {
+    try {
+      const response = await fetch(
+        "https://dog.ceo/api/breed/hound/images/random/4"
+      );
+      const data = await response.json();
+      console.log(data);
+      setPhotoList(data.message);
+    } catch (error) {}
+  }
+  useEffect(() => {
+    getPets();
+  }, []);
+
   return (
     <div>
       <div className="AdoptaMeheader">
@@ -32,7 +51,7 @@ const AdoptaMe = () => {
           href="#"
           id="AdoptaMefiltroH"
         >
-          FÊMEA
+          FÊMEAS
         </a>
 
         <a
@@ -71,19 +90,26 @@ const AdoptaMe = () => {
         ></input>
       </div>
 
-      <div className="AdoptaMecard">
-        <img src={filhote} width="200"></img>
-        <div class="AdoptaMecontainer">
-          <h1>KRIPTO</h1>
-          </div>
-          <div className="AdoptaMedescp">
-          <p>MACHO</p>
-          <p>FILHOTE</p>
-        </div>
-        <div className="AdoptaMebuttoncontainer">
-          <button className="AdoptaMebutton">ADOPTE-ME</button>
-        </div>
+      <div className="AdoptaMecardT">
+        {photoList &&
+          photoList.map((photo) => (
+            <AdoptaMeCard
+              imagen={photo}
+              titulo={"TOM"}
+              genero={"MACHO"}
+              edad={"FILHOTE"}
+            />
+          ))}
       </div>
+      <div>
+      <AdoptaMeCard
+  imagen={filhote}
+  titulo={"TOM"}
+  genero={"MACHO"}
+  edad={"FILHOTE"}
+/>
+      </div>
+
       <br></br>
       <br></br>
       <br></br>

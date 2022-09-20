@@ -1,22 +1,23 @@
 .AdoptaMeheader {
-  padding: 300px 0;
-  background-image: url(./img/huellas.png);
+  padding: 100px;
+  background-image: url(./img/huellas.jpg);
   background-size: cover;
 }
 .AdoptaMetextprincipal {
-  padding: 10px;
+  padding: 10px 0px;
   width: 100%;
   height: 100%;
-  background-color: rgb(63, 182, 26);
-  color: rgb(255, 255, 255);
+  color: #398639;
+  text-shadow: 4px 0 #fff, -4px 0 #fff, 0 4px #fff, 0 -4px #fff, 4px 4px #fff,
+    -4px -4px #fff, 4px -4px #fff, -4px 4px #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
-  font-size: 70px;
+  font-size: 90px;
   text-align: center;
 }
 
 .AdoptaMetextsecundario {
-  color: rgb(14, 77, 14);
+  color: #398639;
   padding: 10px;
   font-size: 40px;
   text-align: center;
@@ -37,45 +38,45 @@
 
 .AdoptaMedog {
   background-color: #01edfa;
-  border: 10px solid #3fb61a;
+  border: 10px solid #398639;
   border-radius: 100px;
   padding: 20px;
-  width: 120px;
+  width: 150px;
   box-shadow: 0 8px 10px 0 rgba(5, 112, 32, 0.2),
     0 6px 20px 0 rgba(7, 80, 25, 0.19);
 }
 
 .AdoptaMedog:active {
-  border-color: rgb(14, 77, 14);
+  border-color: rgb(22, 219, 22);
   padding: 18px;
 }
 
 .AdoptaMecat {
   background-color: #fea8f3;
-  border: 10px solid #3fb61a;
+  border: 10px solid #398639;
   border-radius: 100px;
   padding: 20px;
-  width: 120px;
+  width: 150px;
   box-shadow: 0 8px 10px 0 rgba(5, 112, 32, 0.2),
     0 6px 20px 0 rgba(7, 80, 25, 0.19);
 }
 
 .AdoptaMecat:active {
-  border-color: rgb(14, 77, 14);
+  border-color: rgb(22, 219, 22);
   padding: 18px;
 }
 
 .AdoptaMefiltrot {
   display: flex;
   justify-content: space-around;
-  background-color: rgb(14, 77, 14);
+  background-color: #c2e5c2;
   padding: 06px;
 }
 .AdoptaMefiltro {
   background-color: white;
   color: rgb(14, 77, 14);
   font-weight: 900;
-  border: 4px solid #3fb61a;
+  border: 4px solid #398639;
   padding: 10px 40px;
   text-align: center;
   text-decoration: none;
@@ -83,7 +84,7 @@
 }
 
 .AdoptaMefiltro:hover {
-  background-color: green;
+  background-color: #398639;
   color: white;
 }
 
@@ -94,7 +95,7 @@
 .AdoptaMeinput {
   width: 80%;
   box-sizing: border-box;
-  border: 2px solid #3fb61a;
+  border: 2px solid #398639;
   border-radius: 4px;
   font-size: 16px;
   background-color: white;
@@ -103,11 +104,17 @@
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
 }
+.AdoptaMecardT {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+  padding: 30px 0px;
+}
 
 .AdoptaMecard {
-  border: 5px solid #3fb61a;
+  border: 5px solid #398639;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 200px;
+  max-width: 210px;
   margin: auto;
   text-align: center;
   font-family: arial;
@@ -135,7 +142,7 @@
 }
 
 .AdoptaMebutton {
-  background-color: rgb(14, 77, 14);
+  background-color: #398639;
   color: aliceblue;
   font-weight: 600;
   border-radius: 4px;
@@ -144,6 +151,6 @@
 }
 
 .AdoptaMebutton:active {
-  background-color: #3fb61a;
+  background-color: #c2e5c2;
   color: #ffffff;
 }
