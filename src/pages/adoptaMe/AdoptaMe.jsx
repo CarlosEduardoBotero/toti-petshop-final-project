@@ -1,25 +1,41 @@
 import "./AdoptaMe.css";
 import caes from "../adoptaMe/img/dog.jpg";
 import gatos from "../adoptaMe/img/cat.jpg";
-import filhote from "../adoptaMe/img/dogs/filhote.jpg";
 import AdoptaMeCard from "./AdoptaMeCard";
+import CardDatosCats from "./datosCats";
+import CardDatosDogs from "./datosDogs";
 import { useEffect, useState } from "react";
 
 const AdoptaMe = () => {
-  
-  const [photoList, setPhotoList] = useState();
 
+  const [photoList, setPhotoList] = useState();
+  const [photoListCats, setPhotoListCats] = useState();
+//dogs
   async function getPets() {
     try {
       const response = await fetch(
-        "https://dog.ceo/api/breed/hound/images/random/4"
+        "https://dog.ceo/api/breed/hound/images/random/8s"
       );
       const data = await response.json();
       console.log(data);
       setPhotoList(data.message);
     } catch (error) {}
   }
+  //cats
+
+  async function getCats() {
+    try {
+      const response = await fetch(
+        "https://api.thecatapi.com/v1/images/search?limit=1"
+      );
+      const data = await response.json();
+      console.log(data);
+      setPhotoListCats(data);
+    } catch (error) {}
+  }
+
   useEffect(() => {
+    getCats();
     getPets();
   }, []);
 
@@ -67,15 +83,6 @@ const AdoptaMe = () => {
           className="AdoptaMefiltro"
           rel="filtro"
           href="#"
-          id="AdoptaMefiltroC"
-        >
-          FILHOTE
-        </a>
-
-        <a
-          className="AdoptaMefiltro"
-          rel="filtro"
-          href="#"
           id="AdoptaMefiltroT"
         >
           TUDOS
@@ -93,24 +100,13 @@ const AdoptaMe = () => {
       <div className="AdoptaMecardT">
         {photoList &&
           photoList.map((photo) => (
-            <AdoptaMeCard
-              imagen={photo}
-              titulo={"TOM"}
-              genero={"MACHO"}
-              edad={"FILHOTE"}
-            />
+            <AdoptaMeCard imagen={photo} details={CardDatosDogs} />
+          ))}
+        {photoListCats &&
+          photoListCats.map((photo) => (
+            <AdoptaMeCard imagen={photo.url} details={CardDatosCats} />
           ))}
       </div>
-      <div>
-      <AdoptaMeCard
-  imagen={filhote}
-  titulo={"TOM"}
-  genero={"MACHO"}
-  edad={"FILHOTE"}
-/>
-      </div>
-
-      <br></br>
       <br></br>
       <br></br>
       <br></br>
