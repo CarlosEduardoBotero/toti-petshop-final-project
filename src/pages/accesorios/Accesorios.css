@@ -1,0 +1,478 @@
+.Accesorios-geral {
+  background-color: chartreuse;
+  text-align: center;
+}
+.complemento-portada {
+  text-align: center;
+  position: static;
+}
+.carinhos {
+  width: 100%;
+  height: 12cm;
+  background-image: url(carinhos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  position: flex;
+}
+
+.muito-mais {
+  list-style: none;
+}
+.Accesorios-Conheça {
+  text-align: center;
+  color: #3df13d;
+  text-shadow: 2px 2px 5px rgb(14, 14, 173);
+}
+.variedade {
+  color: rgb(2, 0, 0);
+  text-decoration: underline;
+  background-color: rgb(31, 172, 101);
+  width: 4cm;
+}
+.muitomais {
+  color: rgb(27, 85, 192);
+  list-style: none;
+}
+.Accessorio-foto {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.Accesorios-containercard {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.Accesotios-card {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-bnt {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-boton {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.oferta {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto {
+  color: red;
+  text-align: right;
+}
+.preço {
+  text-align: end;
+}
+.codigo {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-cardbola {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotobola {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta2 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off2 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto2 {
+  color: red;
+  text-align: right;
+}
+.preço2 {
+  text-align: end;
+}
+.codigo2 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-bnt2 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-botton {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt2:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-cadena {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotocadena {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta3 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off3 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto3 {
+  color: red;
+  text-align: right;
+}
+.preço3 {
+  text-align: end;
+}
+.codigo3 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt3 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt3:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-bolacor {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotobolacor {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta4 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off4 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto4 {
+  color: red;
+  text-align: right;
+}
+.preço4 {
+  text-align: end;
+}
+.codigo4 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-buttonn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt4 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt4:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-caixa {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotocaixa {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta5 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off5 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto5 {
+  color: red;
+  text-align: right;
+}
+.preço5 {
+  text-align: end;
+}
+.codigo5 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-botum {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt5 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt5:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-cama {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotocama {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta6 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off6 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+
+.desconto6 {
+  color: red;
+  text-align: right;
+}
+.preço6 {
+  text-align: end;
+}
+.codigo6 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-bottum {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt6 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt6:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-coleirablue {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotocoleirablue {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta7 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off7 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto7 {
+  color: red;
+  text-align: right;
+}
+.preço7 {
+  text-align: end;
+}
+.codigo7 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-buttum {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt7 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt7:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-coleiraviolet {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotocoleiraviolet {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta8 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off8 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto8 {
+  color: red;
+  text-align: right;
+}
+.preço8 {
+  text-align: right;
+}
+.codig8 {
+  text-align: left;
+  opacity: 1, 0;
+}
+
+.Accesorios-buttumm {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt8 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt8:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}

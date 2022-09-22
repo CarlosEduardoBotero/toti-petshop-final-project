@@ -2,7 +2,10 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { FaDog } from "react-icons/fa";
 import AdoptaMe from "./pages/adoptaMe/AdoptaMe";
-import NavBar from "./layouts/NavBar/NavBar"
+
+import Accesorios from "./pages/accesorios/Accesorios.";
+import NavBar from "./layouts/NavBar/NavBar";
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -16,8 +19,8 @@ const App = () => {
               </h1>
             }
           />
-          <Route path="/acessorios" element={<p>acessórios</p>} />
           <Route path="/adote-me" element={<AdoptaMe></AdoptaMe>} />
+          <Route path="/acessorios" element={<Accesorios></Accesorios>} />
           <Route path="/cerca-de" element={<p>cerca de</p>} />
         </Route>
       </Routes>
