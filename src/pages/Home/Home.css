@@ -1,0 +1,105 @@
+.home-bemv {
+  display: flex;
+  justify-content: center;
+}
+.home-bemv-card {
+  width: 90%;
+  height: auto;
+  border-radius: 15px;
+  margin-top: 2%;
+  background-color: #a1e6a1;
+}
+.home-imguno {
+  width: 65%;
+  float: right;
+  border-radius: 20px;
+  margin: 40px 20px 20px 20px;
+}
+.home-textouno {
+  line-height: 50px;
+  color: green;
+  display: grid;
+  place-items: left;
+  text-transform: uppercase;
+  text-shadow: 2px 3px #fff;
+  margin: 130px 50px 50px 50px;
+}
+.home-textouno h1 {
+  font-size: 35px;
+}
+.home-imgdos {
+  width: 100%;
+  height: 600px;
+  margin: 20px 20px 20px 20px;
+}
+.home-banho {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+.home-imgdos {
+  width: 100%;
+  border-radius: 15px;
+}
+.home-textodos {
+  color: green;
+  text-transform: uppercase;
+  text-shadow: 2px 3px #fff;
+  position: absolute;
+  top: 40%;
+  right: 60%;
+}
+.home-textotres {
+  color: green;
+  text-transform: uppercase;
+  text-shadow: 2px 3px #fff;
+  position: absolute;
+  top: 60%;
+  left: 65%;
+  text-align: center;
+}
+.homecontainercard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+  width: 92%;
+  padding: 20px;
+  background-color: #a1e6a1;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  margin: 20px 20px 20px 50px;
+}
+
+.homecard {
+  position: relative;
+  padding: 50px;
+  width: 300px;
+  height: 800px;
+  background-color: #fff;
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.homeimgcard {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.homecardtexto {
+  padding: 10px;
+  text-align: center;
+}
+
+.homecardtexto h1 {
+  font-size: 2rem;
+}
+.homecontainercard .homecard .homecard {
+  padding: 20px;
+  text-align: center;
+}
