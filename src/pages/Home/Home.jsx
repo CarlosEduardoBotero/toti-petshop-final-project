@@ -43,10 +43,16 @@ const Home = () => {
             <div className="homecardtexto">
               <h1>Sobre Cachorros</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                officia, magni deserunt quos commodi nihil facere earum itaque
-                modi quo ducimus! Quibusdam obcaecati nesciunt error architecto
-                exercitationem, quam temporibus blanditiis?
+                é essencial saber qual é sua taxonomia, ou seja, sua
+                classificação no sistema de nomenclatura binomial. O cachorro é
+                um mamífero quadrúpede (ou seja, anda sobre quatro patas) que se
+                destaca por ter uma cauda e uma cobertura de pelos por todo o
+                seu corpo. O cão tem dois sentidos particularmente bem
+                desenvolvidos: olfato e audição. Começaremos com o mais
+                importante, o olfato, que é fundamental para a caça, o
+                comportamento social e sexual. Ao contrário dos humanos, que têm
+                apenas 5 milhões de receptores olfativos, os cães têm entre 200
+                e 300 milhões de receptores olfativos.
               </p>
             </div>
           </div>
