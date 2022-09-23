@@ -43,16 +43,11 @@ const Home = () => {
             <div className="homecardtexto">
               <h1>Sobre Cachorros</h1>
               <p>
-                é essencial saber qual é sua taxonomia, ou seja, sua
-                classificação no sistema de nomenclatura binomial. O cachorro é
-                um mamífero quadrúpede (ou seja, anda sobre quatro patas) que se
-                destaca por ter uma cauda e uma cobertura de pelos por todo o
-                seu corpo. O cão tem dois sentidos particularmente bem
-                desenvolvidos: olfato e audição. Começaremos com o mais
-                importante, o olfato, que é fundamental para a caça, o
-                comportamento social e sexual. Ao contrário dos humanos, que têm
-                apenas 5 milhões de receptores olfativos, os cães têm entre 200
-                e 300 milhões de receptores olfativos.
+                O cachorro é um mamífero quadrúpede (anda sobre quatro patas)
+                que se destaca por ter uma cauda e uma cobertura de pelos por
+                todo o seu corpo. O cão tem dois sentidos particularmente bem
+                desenvolvidos: olfato e audição o mais importante, o olfato, que
+                é fundamental para a caça, o comportamento social e sexual.
               </p>
             </div>
           </div>
@@ -67,10 +62,13 @@ const Home = () => {
             <div className="homecardtexto">
               <h1>Sobre Gatos</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                officia, magni deserunt quos commodi nihil facere earum itaque
-                modi quo ducimus! Quibusdam obcaecati nesciunt error architecto
-                exercitationem, quam temporibus blanditiis?
+                O gato (felis catus) é um mamífero carnívoro e quadrúpede
+                pertencente à família Felidae e à ordem carnívora. É um animal
+                doméstico apreciado por caçar ratos e ratazanas. Este animal
+                possui unhas retráteis, ouvidos e olfação bem aguçados, uma
+                notável visão noturna e um corpo flexível, musculoso e compacto.
+                Trata-se de um animal com boa memória e com capacidade de
+                aprender por meio da observação e da experiência.
               </p>
             </div>
           </div>
@@ -83,12 +81,15 @@ const Home = () => {
               alt="manoepata"
             ></img>
             <div className="homecardtexto">
-              <h1>Sobre Adoptar Pets</h1>
+              <h1>Adoptar Pets</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                officia, magni deserunt quos commodi nihil facere earum itaque
-                modi quo ducimus! Quibusdam obcaecati nesciunt error architecto
-                exercitationem, quam temporibus blanditiis?
+                Todos os pets merecem uma vida digna, regada com muito amor e
+                proteção. Por esse motivo, ao concretizar uma adoção responsável
+                você está proporcionado uma vida de mais qualidade para o pet.
+                Além disso, ao adotar o animal de um abrigo você estará,
+                automaticamente, salvando mais de uma vida, pois o espaço do seu
+                novo melhor amigo será disponibilizado a outro animal de rua que
+                será resgatado.
               </p>
             </div>
           </div>
