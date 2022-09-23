@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home/Home";
 import { FaDog } from "react-icons/fa";
 
 import Accesorios from "./pages/accesorios/Accesorios.";
@@ -10,14 +11,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route element={<NavBar />}>
-          <Route
-            path="/"
-            element={
-              <h1 style={{ height: "200vh" }}>
-                home <FaDog className="icon" />
-              </h1>
-            }
-          />
+          <Route path="/" element={<Home></Home>} />
           <Route path="/acessorios" element={<Accesorios></Accesorios>} />
           <Route path="/adote-me" element={<p>adote</p>} />
           <Route path="/cerca-de" element={<p>cerca de</p>} />
