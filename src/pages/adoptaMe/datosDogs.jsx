@@ -1,4 +1,4 @@
-const CardDatosDogs = [
+export const CardDatosDogs = [
   {
     titulo: "KRIPTO",
     genero: "MACHO",
@@ -33,4 +33,3 @@ const CardDatosDogs = [
   },
 ];
 
-export default CardDatosDogs;

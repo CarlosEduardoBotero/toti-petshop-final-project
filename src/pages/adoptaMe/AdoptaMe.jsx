@@ -2,15 +2,14 @@ import "./AdoptaMe.css";
 import caes from "../adoptaMe/img/dog.jpg";
 import gatos from "../adoptaMe/img/cat.jpg";
 import AdoptaMeCard from "./AdoptaMeCard";
-import CardDatosCats from "./datosCats";
-import CardDatosDogs from "./datosDogs";
+import { CardDatosCats } from "./datosCats";
+import { CardDatosDogs } from "./datosDogs";
 import { useEffect, useState } from "react";
 
 const AdoptaMe = () => {
-
   const [photoList, setPhotoList] = useState();
   const [photoListCats, setPhotoListCats] = useState();
-//dogs
+  //dogs
   async function getPets() {
     try {
       const response = await fetch(
@@ -26,7 +25,7 @@ const AdoptaMe = () => {
   async function getCats() {
     try {
       const response = await fetch(
-        "https://api.thecatapi.com/v1/images/search?limit=1"
+        "https://api.thecatapi.com/v1/images/search?limit=8"
       );
       const data = await response.json();
       console.log(data);
@@ -99,12 +98,20 @@ const AdoptaMe = () => {
 
       <div className="AdoptaMecardT">
         {photoList &&
-          photoList.map((photo) => (
-            <AdoptaMeCard imagen={photo} details={CardDatosDogs} />
+          photoList.map((photo, i) => (
+            <AdoptaMeCard
+              imagen={photo}
+              titulo={CardDatosDogs[i].titulo}
+              genero={CardDatosDogs[i].genero}
+            />
           ))}
         {photoListCats &&
-          photoListCats.map((photo) => (
-            <AdoptaMeCard imagen={photo.url} details={CardDatosCats} />
+          photoListCats.map((photo, i) => (
+            <AdoptaMeCard
+              imagen={photo.url}
+              titulo={CardDatosCats[i].titulo}
+              genero={CardDatosCats[i].genero}
+            />
           ))}
       </div>
       <br></br>

@@ -1,6 +1,5 @@
-import AdoptaMe from "./AdoptaMe";
 
-const CardDatosCats = [
+export const CardDatosCats = [
   {
     titulo: "BOY",
     genero: "MACHO",
@@ -35,4 +34,3 @@ const CardDatosCats = [
   },
 ];
 
-export default CardDatosCats;
