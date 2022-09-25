@@ -1,0 +1,76 @@
+{
+  "adotar": [
+    {
+      "id": 1,
+      "imagen": "https://images.dog.ceo/breeds/borzoi/n02090622_6372.jpg",
+      "titulo": "typicode",
+      "genero": "url"
+    },
+    {
+      "id": 2,
+      "imagen": "https://images.dog.ceo/breeds/chihuahua/n02085620_8491.jpg",
+      "titulo": "typicode",
+      "genero": "url"
+    },
+    {
+      "id": 3,
+      "imagen": "./images/bebedouro.jpg",
+      "titulo": "typicode",
+      "genero": "url"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "./images/bebedouro.jpg"
+    },
+    {
+      "id": 2,
+      "image": "./images/bola roxa.webp"
+    },
+    {
+      "id": 3,
+      "image": "./images/bolacores.jpg"
+    },
+    {
+      "id": 4,
+      "image": "./images/cadenas.jpg"
+    },
+    {
+      "id": 5,
+      "image": "./images/caixa.jpg"
+    },
+    {
+      "id": 6,
+      "image": "./images/cama.jpg"
+    },
+    {
+      "id": 7,
+      "image": "./images/carinhos.jpg"
+    },
+    {
+      "id": 8,
+      "image": "./images/cortador de unha.webp"
+    },
+    {
+      "id": 9,
+      "image": "./images/gato brincando.webp"
+    },
+    {
+      "id": 10,
+      "image": "./images/gato com peixe.jpg"
+    },
+    {
+      "id": 11,
+      "image": "./images/limpiador de orelha.webp"
+    },
+    {
+      "id": 12,
+      "image": "./images/percherablue.webp"
+    },
+    {
+      "id": 13,
+      "image": "./images/tapetes.jpg"
+    }
+  ]
+}
