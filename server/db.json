@@ -22,55 +22,120 @@
   "products": [
     {
       "id": 1,
-      "image": "./images/bebedouro.jpg"
+      "imagen": "./images/bebedouro.jpg",
+      "descripcao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005"
     },
     {
       "id": 2,
-      "image": "./images/bola roxa.webp"
+      "image": "./images/bola roxa.webp",
+      "descripcao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005"
     },
     {
       "id": 3,
-      "image": "./images/bolacores.jpg"
+      "image": "./images/bolacores.jpg",
+      "descripcao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005"
     },
     {
       "id": 4,
-      "image": "./images/cadenas.jpg"
+      "image": "./images/cadenas.jpg",
+      "descripcao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005"
     },
     {
       "id": 5,
-      "image": "./images/caixa.jpg"
+      "image": "./images/caixa.jpg",
+      "descripcao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005"
     },
     {
       "id": 6,
-      "image": "./images/cama.jpg"
+      "image": "./images/cama.jpg",
+      "descripcao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005"
     },
     {
       "id": 7,
-      "image": "./images/carinhos.jpg"
+      "image": "./images/carinhos.jpg",
+      "descripcao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005"
     },
     {
       "id": 8,
-      "image": "./images/cortador de unha.webp"
+      "image": "./images/cortador de unha.webp",
+      "descripcao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005"
     },
     {
       "id": 9,
-      "image": "./images/gato brincando.webp"
+      "image": "./images/gato brincando.webp",
+      "descripcao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005"
     },
     {
       "id": 10,
-      "image": "./images/gato com peixe.jpg"
+      "image": "./images/gato com peixe.jpg",
+      "descripcao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005"
     },
     {
       "id": 11,
-      "image": "./images/limpiador de orelha.webp"
+      "image": "./images/limpiador de orelha.webp",
+      "descripcao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005"
     },
     {
       "id": 12,
-      "image": "./images/percherablue.webp"
+      "image": "./images/percherablue.webp",
+      "descripcao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005"
     },
     {
       "id": 13,
-      "image": "./images/tapetes.jpg"
+      "image": "./images/tapetes.jpg",
+      "descripcao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005"
     }
   ]
 }
