@@ -2,6 +2,9 @@ import "./AdoptaMe.css";
 import AdoptaMeCard from "./AdoptaMeCard";
 import { CardDatosCats } from "./datosCats";
 import { CardDatosDogs } from "./datosDogs";
+import facebook from "./img/facebook.png";
+import instagram from "./img/Instagram.png";
+import wsp from "./img/wpp.png";
 import { useEffect, useState } from "react";
 
 const AdoptaMe = () => {
@@ -103,10 +106,12 @@ const AdoptaMe = () => {
             />
           ))}
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <div className="AdoptaMerodape">
+        <p>
+          © 2022 TheRoyalPet. Todos os direitos reservados. Aviso legal,
+          política de privacidade e proteção de dados pessoais.
+        </p>
+      </div>
     </div>
   );
 };
