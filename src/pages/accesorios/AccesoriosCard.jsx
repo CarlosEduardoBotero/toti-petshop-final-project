@@ -19,12 +19,14 @@ const AccesoriosCard = (props) => {
       </h5>
       <h2 className="preço">R${props.preço}</h2>
       <h6 className="codigo">{props.codigo}</h6>
-      <input
-        className="Accesorios-contador"
-        type="number"
-        value={value}
-        onChange={handleChange}
-      />
+      {props.quantidade && (
+        <input
+          className="Accesorios-contador"
+          type="number"
+          value={value}
+          onChange={handleChange}
+        />
+      )}
       <div className="Accesorios-boton">
         <button className="Accesorios-bnt" onClick={props.onClick}>
           {props.buttonText}
