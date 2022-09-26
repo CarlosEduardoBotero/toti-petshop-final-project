@@ -106,7 +106,13 @@ const AdoptaMe = () => {
             />
           ))}
       </div>
-      <div className="AdoptaMerodape">
+      <div  className="AdoptaMerodape">
+        <div className="AdoptaMebtntext">
+        <h4>Compartir:</h4>
+        <a href="https://www.facebook.com/"><img className="AdoptaMebtnfiw"  src={facebook}></img></a>
+        <a href="https://www.instagram.com/"><img className="AdoptaMebtnfiw"  src={instagram}></img></a>
+        <a href="https://web.whatsapp.com/"><img className="AdoptaMebtnfiw"  src={wsp}></img></a>
+        </div>
         <p>
           © 2022 TheRoyalPet. Todos os direitos reservados. Aviso legal,
           política de privacidade e proteção de dados pessoais.

@@ -84,9 +84,24 @@
 
 .AdoptaMerodape {
   background-color: #398639;
-  color: #fff;
-  font-weight: 600;
+  color: #c2e5c2;
+  font-weight: 400;
   width: 100%;
   height: 100%;
   padding: 30px;
+}
+
+.AdoptaMebtntext  {
+  display: flex;
+  justify-content:baseline;
+  align-items: center;
+
+}
+
+.AdoptaMebtnfiw {
+  width: 33px;
+  margin: 5px;
+  padding: 2px;
+  background-color: #c2e5c2;
+  border-radius: 30px;
 }
