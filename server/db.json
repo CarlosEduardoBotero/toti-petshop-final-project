@@ -11,23 +11,19 @@
       "imagen": "https://images.dog.ceo/breeds/chihuahua/n02085620_8491.jpg",
       "titulo": "typicode",
       "genero": "url"
-    },
-    {
-      "id": 3,
-      "imagen": "./images/bebedouro.jpg",
-      "titulo": "typicode",
-      "genero": "url"
     }
   ],
   "products": [
     {
       "id": 1,
+      "cantidad": 12,
       "imagem": "./images/bebedouro.jpg",
       "descricao": "blabla",
       "descontoPorcentagem": "25",
       "desconto": "13.95",
       "preco": "20",
-      "codigo": "cn005"
+      "codigo": "cn005",
+      "quantidades": 1
     },
     {
       "id": 2,
@@ -36,7 +32,8 @@
       "descontoPorcentagem": "25",
       "desconto": "13.95",
       "preco": "20",
-      "codigo": "cn005"
+      "codigo": "cn005",
+      "quantidades": 1
     },
     {
       "id": 3,
@@ -45,7 +42,8 @@
       "descontoPorcentagem": "25",
       "desconto": "13.95",
       "preco": "20",
-      "codigo": "cn005"
+      "codigo": "cn005",
+      "quantidades": 1
     },
     {
       "id": 4,
@@ -54,7 +52,8 @@
       "descontoPorcentagem": "25",
       "desconto": "13.95",
       "preco": "20",
-      "codigo": "cn005"
+      "codigo": "cn005",
+      "quantidades": 1
     },
     {
       "id": 5,
@@ -63,7 +62,8 @@
       "descontoPorcentagem": "25",
       "desconto": "13.95",
       "preco": "20",
-      "codigo": "cn005"
+      "codigo": "cn005",
+      "quantidades": 1
     },
     {
       "id": 6,
@@ -72,7 +72,8 @@
       "descontoPorcentagem": "25",
       "desconto": "13.95",
       "preco": "20",
-      "codigo": "cn005"
+      "codigo": "cn005",
+      "quantidades": 1
     },
     {
       "id": 7,
@@ -81,7 +82,8 @@
       "descontoPorcentagem": "25",
       "desconto": "13.95",
       "preco": "20",
-      "codigo": "cn005"
+      "codigo": "cn005",
+      "quantidades": 1
     },
     {
       "id": 8,
@@ -90,7 +92,8 @@
       "descontoPorcentagem": "25",
       "desconto": "13.95",
       "preco": "20",
-      "codigo": "cn005"
+      "codigo": "cn005",
+      "quantidades": 1
     },
     {
       "id": 9,
@@ -99,7 +102,8 @@
       "descontoPorcentagem": "25",
       "desconto": "13.95",
       "preco": "20",
-      "codigo": "cn005"
+      "codigo": "cn005",
+      "quantidades": 1
     },
     {
       "id": 10,
@@ -108,7 +112,8 @@
       "descontoPorcentagem": "25",
       "desconto": "13.95",
       "preco": "20",
-      "codigo": "cn005"
+      "codigo": "cn005",
+      "quantidades": 1
     },
     {
       "id": 11,
@@ -117,7 +122,8 @@
       "descontoPorcentagem": "25",
       "desconto": "13.95",
       "preco": "20",
-      "codigo": "cn005"
+      "codigo": "cn005",
+      "quantidades": 1
     },
     {
       "id": 12,
@@ -126,7 +132,8 @@
       "descontoPorcentagem": "25",
       "desconto": "13.95",
       "preco": "20",
-      "codigo": "cn005"
+      "codigo": "cn005",
+      "quantidades": 1
     },
     {
       "id": 13,
@@ -135,7 +142,41 @@
       "descontoPorcentagem": "25",
       "desconto": "13.95",
       "preco": "20",
-      "codigo": "cn005"
+      "codigo": "cn005",
+      "quantidades": 1
+    }
+  ],
+  "mais-vendidos": [
+    {
+      "id": 1,
+      "cantidad": 12,
+      "imagem": "./images/bebedouro.jpg",
+      "descricao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005",
+      "quantidades": 1
+    },
+    {
+      "id": 2,
+      "imagem": "./images/bola roxa.webp",
+      "descricao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005",
+      "quantidades": 1
+    },
+    {
+      "id": 3,
+      "imagem": "./images/bolacores.jpg",
+      "descricao": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preco": "20",
+      "codigo": "cn005",
+      "quantidades": 1
     }
   ]
 }
