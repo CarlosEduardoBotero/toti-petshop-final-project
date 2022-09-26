@@ -23,6 +23,12 @@
   text-shadow: 2px 2px 5px rgb(14, 14, 173);
   transform: translateY(-450px);
 }
+.Accesorios-contador {
+  width: 2cm;
+  text-align: left;
+  color: aqua;
+  transform: translateX(-60px);
+}
 .Accessorio-foto {
   border-radius: 20px;
   width: 150px;
