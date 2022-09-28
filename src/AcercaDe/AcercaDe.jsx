@@ -15,7 +15,18 @@ const AcercaDe = () => {
   const { register, handleSubmit, formState: { errors } } = useForm({
     resolver: yupResolver(validation)
   });
-  const envio = data => console.log(data)
+  const envio = async (data) => {
+    try {
+      await fetch("http://localhost:3001/contact", {
+        method: "POST",
+        headers: {
+          Accept: "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+    } catch (error) {}
+  };
 
   return (
     <div>
