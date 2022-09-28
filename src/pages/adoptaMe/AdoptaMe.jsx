@@ -4,6 +4,8 @@ import { CardDatosCats } from "./datosCats";
 import { CardDatosDogs } from "./datosDogs";
 import facebook from "./img/facebook.png";
 import instagram from "./img/Instagram.png";
+import imgrodape from "./img/catsdogs.png";
+import imgrodape2 from "./img/catsdogs2.png";
 import wsp from "./img/wpp.png";
 import { useEffect, useState } from "react";
 
@@ -106,14 +108,32 @@ const AdoptaMe = () => {
             />
           ))}
       </div>
-      <div  className="AdoptaMerodape">
-        <div className="AdoptaMebtntext">
-        <h4>Compartir:</h4>
-        <a href="https://www.facebook.com/"><img className="AdoptaMebtnfiw"  src={facebook}></img></a>
-        <a href="https://www.instagram.com/"><img className="AdoptaMebtnfiw"  src={instagram}></img></a>
-        <a href="https://web.whatsapp.com/"><img className="AdoptaMebtnfiw"  src={wsp}></img></a>
+      <div className="Adoptameimgrodape">
+        <img src={imgrodape}></img>
+        <img src={imgrodape2}></img>
+      </div>
+      <div className="AdoptaMerodape">
+        <div className="AadoptaMemsg">
+          <p>Me leva pra casa?</p>
+          <p>
+            Adotar é um gesto de amor, e os nossos animais estão esperando por
+            você!
+          </p>
         </div>
-        <p>
+
+        <div className="AdoptaMebtntext">
+          <h4>Compartilhar:</h4>
+          <a href="https://www.facebook.com/">
+            <img className="AdoptaMebtnfiw" src={facebook}></img>
+          </a>
+          <a href="https://www.instagram.com/">
+            <img className="AdoptaMebtnfiw" src={instagram}></img>
+          </a>
+          <a href="https://web.whatsapp.com/">
+            <img className="AdoptaMebtnfiw" src={wsp}></img>
+          </a>
+        </div>
+        <p className="AdoptaMedireitos">
           © 2022 TheRoyalPet. Todos os direitos reservados. Aviso legal,
           política de privacidade e proteção de dados pessoais.
         </p>

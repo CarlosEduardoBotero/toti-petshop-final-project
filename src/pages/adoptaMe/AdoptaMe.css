@@ -1,3 +1,7 @@
+* {
+  -webkit-text-size-adjust: 100%;
+}
+
 .AdoptaMeheader {
   padding: 100px;
   background-image: url(./img/huellas.jpg);
@@ -82,20 +86,37 @@
   color: #ffffff;
 }
 
+.Adoptameimgrodape {
+  display: flex;
+
+}
+
 .AdoptaMerodape {
   background-color: #398639;
   color: #c2e5c2;
   font-weight: 400;
   width: 100%;
   height: 100%;
-  padding: 30px;
+  padding: 10px;
+}
+.AadoptaMemsg {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 20px;
+  text-align: center;
 }
 
-.AdoptaMebtntext  {
+.AdoptaMedireitos {
   display: flex;
-  justify-content:baseline;
+  justify-content: center;
   align-items: center;
 
+}
+
+.AdoptaMebtntext {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
 }
 
 .AdoptaMebtnfiw {
@@ -105,3 +126,9 @@
   background-color: #c2e5c2;
   border-radius: 30px;
 }
+
+.AdoptaMebtnfiw:hover {
+  transform: scale(1.2);
+}
+
+
