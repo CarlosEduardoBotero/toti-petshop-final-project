@@ -1,12 +1,16 @@
 import "./AdoptaMe.css";
-import caes from "../adoptaMe/img/dog.jpg";
-import gatos from "../adoptaMe/img/cat.jpg";
 import AdoptaMeCard from "./AdoptaMeCard";
 import { CardDatosCats } from "./datosCats";
 import { CardDatosDogs } from "./datosDogs";
+import facebook from "./img/facebook.png";
+import instagram from "./img/Instagram.png";
+import imgrodape from "./img/catsdogs.png";
+import imgrodape2 from "./img/catsdogs2.png";
+import wsp from "./img/wpp.png";
 import { useEffect, useState } from "react";
 
 const AdoptaMe = () => {
+  
   const [photoList, setPhotoList] = useState();
   const [photoListCats, setPhotoListCats] = useState();
   //dogs
@@ -33,6 +37,23 @@ const AdoptaMe = () => {
     } catch (error) {}
   }
 
+  async function postsPet(imagen, titulo, genero) {
+    try {
+      await fetch("http://localhost:3001/adotar", {
+        method: "POST",
+        headers: {
+          Accept: "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          imagen: imagen,
+          titulo: titulo,
+          genero: genero,
+        }),
+      });
+    } catch (error) {}
+  }
+
   useEffect(() => {
     getCats();
     getPets();
@@ -54,48 +75,6 @@ const AdoptaMe = () => {
         levá-lo para casa vacinado, desparasitado e esterilizado.
       </p>
 
-      <div className="AdoptaMegatdog">
-        <img className="AdoptaMedog" src={caes} width="110"></img>
-        <img className="AdoptaMecat" src={gatos} width="110"></img>
-      </div>
-
-      <div className="AdoptaMefiltrot">
-        <a
-          className="AdoptaMefiltro"
-          rel="filtro"
-          href="#"
-          id="AdoptaMefiltroH"
-        >
-          FÊMEAS
-        </a>
-
-        <a
-          className="AdoptaMefiltro"
-          rel="filtro"
-          href="#"
-          id="AdoptaMefiltroM"
-        >
-          MACHOS
-        </a>
-
-        <a
-          className="AdoptaMefiltro"
-          rel="filtro"
-          href="#"
-          id="AdoptaMefiltroT"
-        >
-          TUDOS
-        </a>
-      </div>
-      <div className="AdoptaMeinputt">
-        <input
-          type="text"
-          name="O que você está procurando?"
-          placeholder="O que você está procurando?"
-          className="AdoptaMeinput"
-        ></input>
-      </div>
-
       <div className="AdoptaMecardT">
         {photoList &&
           photoList.map((photo, i) => (
@@ -103,6 +82,14 @@ const AdoptaMe = () => {
               imagen={photo}
               titulo={CardDatosDogs[i].titulo}
               genero={CardDatosDogs[i].genero}
+              buttonText="Adota-me"
+              onClick={() =>
+                postsPet(
+                  photo,
+                  CardDatosDogs[i].titulo,
+                  CardDatosDogs[i].genero
+                )
+              }
             />
           ))}
         {photoListCats &&
@@ -111,13 +98,47 @@ const AdoptaMe = () => {
               imagen={photo.url}
               titulo={CardDatosCats[i].titulo}
               genero={CardDatosCats[i].genero}
+              buttonText="Adota-me"
+              onClick={() =>
+                postsPet(
+                  photo.url,
+                  CardDatosCats[i].titulo,
+                  CardDatosCats[i].genero
+                )
+              }
             />
           ))}
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <div className="Adoptameimgrodape">
+        <img src={imgrodape}></img>
+        <img src={imgrodape2}></img>
+      </div>
+      <div className="AdoptaMerodape">
+        <div className="AadoptaMemsg">
+          <p>Me leva pra casa?</p>
+          <p>
+            Adotar é um gesto de amor, e os nossos animais estão esperando por
+            você!
+          </p>
+        </div>
+
+        <div className="AdoptaMebtntext">
+          <h4>Compartilhar:</h4>
+          <a href="https://www.facebook.com/">
+            <img className="AdoptaMebtnfiw" src={facebook}></img>
+          </a>
+          <a href="https://www.instagram.com/">
+            <img className="AdoptaMebtnfiw" src={instagram}></img>
+          </a>
+          <a href="https://web.whatsapp.com/">
+            <img className="AdoptaMebtnfiw" src={wsp}></img>
+          </a>
+        </div>
+        <p className="AdoptaMedireitos">
+          © 2022 TheRoyalPet. Todos os direitos reservados. Aviso legal,
+          política de privacidade e proteção de dados pessoais.
+        </p>
+      </div>
     </div>
   );
 };
