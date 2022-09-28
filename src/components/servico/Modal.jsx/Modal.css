@@ -1,0 +1,52 @@
+.modal-backdrop {
+  background-color: rgb(0, 0, 0, 0.2);
+  z-index: -1;
+  position: fixed;
+  inset: 0;
+  opacity: 0;
+  transition: all 250ms ease;
+}
+
+.modal-children-container {
+  opacity: 0;
+  transition: all 250ms ease;
+}
+
+.modal-opacity-1 {
+  opacity: 1;
+}
+.modal-opacity-0 {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 250ms ease;
+}
+
+.fadeOut {
+  animation: fadeOut 250ms ease;
+}
+
+.modal-container {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
