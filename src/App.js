@@ -5,7 +5,7 @@ import AdoptaMe from "./pages/adoptaMe/AdoptaMe";
 
 import Accesorios from "./pages/accesorios/Accesorios.";
 import NavBar from "./layouts/NavBar/NavBar";
-import AcercaDe from "./AcercaDe/AcercaDe.jsx";
+import AcercaDe from "./AcercaDe/AcercaDe";
 
 const App = () => {
   return (
