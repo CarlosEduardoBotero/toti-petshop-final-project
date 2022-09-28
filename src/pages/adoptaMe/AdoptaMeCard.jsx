@@ -11,11 +11,8 @@ const AdoptaMeCard = (props) => {
         <p>{props.genero}</p>
       </div>
       <div className="AdoptaMebuttoncontainer">
-        <button
-          className="AdoptaMebutton"
-          onClick={() => alert("Obrigado por me adotar!")}
-        >
-          ADOPTE-ME
+        <button className="AdoptaMebutton" onClick={props.onClick}>
+          {props.buttonText}
         </button>
       </div>
     </div>

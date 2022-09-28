@@ -17,24 +17,17 @@
   justify-content: center;
   position: flex;
 }
-
-.muito-mais {
-  list-style: none;
-}
 .Accesorios-Conheça {
   text-align: center;
   color: #3df13d;
   text-shadow: 2px 2px 5px rgb(14, 14, 173);
+  transform: translateY(-450px);
 }
-.variedade {
-  color: rgb(2, 0, 0);
-  text-decoration: underline;
-  background-color: rgb(31, 172, 101);
-  width: 4cm;
-}
-.muitomais {
-  color: rgb(27, 85, 192);
-  list-style: none;
+.Accesorios-contador {
+  width: 2cm;
+  text-align: left;
+  color: aqua;
+  transform: translateX(-60px);
 }
 .Accessorio-foto {
   border-radius: 20px;
@@ -473,6 +466,657 @@
   cursor: pointer;
 }
 .Accesorios-bnt8:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-capachuvagato {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotocapadechuva {
+  border-radius: 20px;
+  width: 170px;
+  height: 200px;
+}
+.oferta9 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off9 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto9 {
+  color: red;
+  text-align: right;
+}
+.preço9 {
+  text-align: end;
+}
+.codig9 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-buttumn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt9 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt9:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-casagato {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotocasagato {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta10 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off10 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto10 {
+  color: red;
+  text-align: right;
+}
+.preço10 {
+  text-align: end;
+}
+.codigo10 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-buttunm {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt10 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt10:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-cortador {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotocortador {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta11 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off11 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto11 {
+  color: red;
+  text-align: right;
+}
+.preço11 {
+  text-align: end;
+}
+.codigo11 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-bot {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt11 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt11:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-espiral {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotoespiral {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta12 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off12 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto12 {
+  color: red;
+  text-align: right;
+}
+.preço12 {
+  text-align: end;
+}
+.codigo12 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-bott {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt12 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt12:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-gato {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotogato {
+  border-radius: 20px;
+  width: 170px;
+  height: 200px;
+}
+.oferta13 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off13 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto13 {
+  color: red;
+  text-align: right;
+}
+.preço13 {
+  text-align: end;
+}
+.codigo13 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-botta {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt13 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bn13:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-golden {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotogolden {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta14 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off14 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto14 {
+  color: red;
+  text-align: right;
+}
+.preço14 {
+  text-align: end;
+}
+.codigo14 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-bottao {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt14 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt14:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-gatopez {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotogatopez {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta15 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off15 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto15 {
+  color: red;
+  text-align: right;
+}
+.preço15 {
+  text-align: end;
+}
+.codigo15 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-boton15 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt15 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt15:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-laberinto {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotolaberinto {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta16 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off16 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto16 {
+  color: red;
+  text-align: right;
+}
+.preço16 {
+  text-align: end;
+}
+.codigo16 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-boton16 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt16 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bn16:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-arranha {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotoarranhador {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta17 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off17 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto17 {
+  color: red;
+  text-align: right;
+}
+.preço17 {
+  text-align: end;
+}
+.codigo17 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-boton17 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt17 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt17:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-tapetes {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fototapete {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta18 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off18 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto18 {
+  color: red;
+  text-align: right;
+}
+.preço18 {
+  text-align: end;
+}
+.codigo18 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-boton18 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt18 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt18:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-rpg {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotorpg {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta19 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off19 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto19 {
+  color: red;
+  text-align: right;
+}
+.preço19 {
+  text-align: end;
+}
+.codigo19 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-boton19 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt19 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt19:active {
+  background-color: #c2e5c2;
+  color: #ffffff;
+}
+.Accesorios-sweter {
+  border: 5px solid #398639;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 210px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 0px 0px 10px;
+  background-color: #c2e5c2;
+}
+.Accesorios-fotosweter {
+  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+}
+.oferta20 {
+  text-align: left;
+  background-color: yellow;
+  width: 75px;
+}
+.off20 {
+  text-align: left;
+  color: blue;
+  font-family: serif;
+}
+.desconto20 {
+  color: red;
+  text-align: right;
+}
+.preço20 {
+  text-align: end;
+}
+.codigo20 {
+  text-align: left;
+  opacity: 1, 0;
+}
+.Accesorios-boton20 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px;
+}
+.Accesorios-bnt20 {
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.Accesorios-bnt20:active {
   background-color: #c2e5c2;
   color: #ffffff;
 }

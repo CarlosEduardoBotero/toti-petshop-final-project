@@ -1,0 +1,189 @@
+{
+  "adotar": [
+    {
+      "id": 1,
+      "imagen": "https://images.dog.ceo/breeds/borzoi/n02090622_6372.jpg",
+      "titulo": "typicode",
+      "genero": "url"
+    },
+    {
+      "id": 2,
+      "imagen": "https://images.dog.ceo/breeds/chihuahua/n02085620_8491.jpg",
+      "titulo": "typicode",
+      "genero": "url"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "cantidad": 12,
+      "imagem": "./images/bebedouro.jpg",
+      "descricao": "Kit para seu pet comer e beber agua",
+      "descontoPorcentagem": "25",
+      "desconto": "24,99",
+      "preco": "19,99",
+      "quantidade": "1",
+      "codigo": "COD 554564"
+    },
+    {
+      "id": 2,
+      "imagem": "./images/bola roxa.webp",
+      "descricao": "Bola de brinquedo com pontas flexiveis",
+      "descontoPorcentagem": "30",
+      "desconto": "27,99",
+      "preco": "21,99",
+      "quantidade": "1",
+      "codigo": "COD 896321"
+    },
+    {
+      "id": 3,
+      "imagem": "./images/bolacores.jpg",
+      "descricao": "Bola que ajuda na Higiene dos dentes do seu pet",
+      "descontoPorcentagem": "15",
+      "desconto": "25,99",
+      "preco": "21,99",
+      "quantidade": "1",
+      "codigo": "COD 156615"
+    },
+    {
+      "id": 4,
+      "imagem": "./images/cadenas.jpg",
+      "descricao": "Correntinha de luxo com pendente para nome",
+      "descontoPorcentagem": "20",
+      "desconto": "59,90",
+      "preco": "47,90",
+      "quantidade": "1",
+      "codigo": "COD 183674"
+    },
+    {
+      "id": 5,
+      "imagem": "./images/caixa.jpg",
+      "descricao": "Caixa de viagem para transportar seu pet",
+      "descontoPorcentagem": "10",
+      "desconto": "44,99",
+      "preco": "39,99",
+      "quantidade": "1",
+      "codigo": "COD 574961"
+    },
+    {
+      "id": 6,
+      "imagem": "./images/cama.jpg",
+      "descricao": "Cama para o seu pet ter más comodidade",
+      "descontoPorcentagem": "15",
+      "desconto": "51,99",
+      "preco": "47,99",
+      "quantidade": "1",
+      "codigo": "COD 013697"
+    },
+    {
+      "id": 8,
+      "imagem": "./images/cortador de unha.webp",
+      "descricao": "Alicate para cortar a unha do seu pet",
+      "descontoPorcentagem": "5",
+      "desconto": "28,75",
+      "preco": "24,99",
+      "quantidade": "1",
+      "codigo": "COD 970568"
+    },
+    {
+      "id": 9,
+      "imagem": "./images/gato brincando.webp",
+      "descricao": "Brinquedo para manter seu gato distraido",
+      "descontoPorcentagem": "25",
+      "desconto": "19,99",
+      "preco": "15,99",
+      "quantidade": "1",
+      "codigo": "COD 187956"
+    },
+    {
+      "id": 10,
+      "imagem": "./images/gato com peixe.jpg",
+      "descricao": "Peixe de brinquedo eletrico para gato com cabo USB",
+      "descontoPorcentagem": "10",
+      "desconto": "54,99",
+      "preco": "49,99",
+      "quantidade": "1",
+      "codigo": "COD 468556"
+    },
+    {
+      "id": 11,
+      "imagem": "./images/limpador de orelha.webp",
+      "descricao": "Limpador de orelha para  higiene do seu pet",
+      "descontoPorcentagem": "15",
+      "desconto": "21,99",
+      "preco": "17,99",
+      "quantidade": "1",
+      "codigo": "COD 482697"
+    },
+    {
+      "id": 12,
+      "imagem": "./images/percherablue.webp",
+      "descricao": "Coleira cor azul para passiar seu pet",
+      "descontoPorcentagem": "20",
+      "desconto": "34,99",
+      "preco": "28,99",
+      "quantidade": "1",
+      "codigo": "COD 497834"
+    },
+    {
+      "id": 13,
+      "imagem": "./images/tapetes.jpg",
+      "descricao": "Tapetes descartaveis para higiene do seu pet",
+      "descontoPorcentagem": "10",
+      "desconto": "25,00",
+      "preco": "18,00",
+      "quantidade": "1",
+      "codigo": "COD 451623"
+    }
+  ],
+  "cart": [
+    {
+      "imagem": "./images/bebedouro.jpg",
+      "descrição": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preço": "20",
+      "quantidade": "1",
+      "codigo": "cn005",
+      "id": 1
+    },
+    {
+      "imagem": "./images/bola roxa.webp",
+      "descrição": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preço": "20",
+      "quantidade": "1",
+      "codigo": "cn005",
+      "id": 2
+    },
+    {
+      "imagem": "./images/bolacores.jpg",
+      "descrição": "blabla",
+      "descontoPorcentagem": "25",
+      "desconto": "13.95",
+      "preço": "20",
+      "quantidade": "1",
+      "codigo": "cn005",
+      "id": 3
+    },
+    {
+      "imagem": "./images/gato com peixe.jpg",
+      "descrição": "Peixe de brinquedo eletrico para gato com cabo USB",
+      "descontoPorcentagem": "10",
+      "desconto": "54,99",
+      "preço": "49,99",
+      "quantidade": "1",
+      "codigo": "COD 468556",
+      "id": 4
+    }
+  ],
+  "contact": [
+    {
+      "nome": "Jose",
+      "email": "henrycalderon001@gmail.com",
+      "menssage": "Hola",
+      "id": 1
+    }
+  ]
+}
