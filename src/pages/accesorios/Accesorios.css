@@ -23,10 +23,13 @@
   text-shadow: 2px 2px 5px rgb(14, 14, 173);
   transform: translateY(-450px);
 }
-
-.Quantidade {
+.Accesorios-contador {
+  width: 45px;
   text-align: left;
-  color: blue;
+  color: rgb(7, 7, 7);
+  transform: translateX(-75px);
+  margin-bottom: 5px;
+  border-radius: 10px;
 }
 .Accessorio-foto {
   border-radius: 20px;
