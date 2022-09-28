@@ -1,9 +1,4 @@
-* {
-  -webkit-text-size-adjust: 100%;
-}
-
 .AdoptaMeheader {
-  padding: 100px;
   background-image: url(./img/huellas.jpg);
   background-size: cover;
 }

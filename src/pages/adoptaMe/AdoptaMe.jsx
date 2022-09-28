@@ -10,6 +10,7 @@ import wsp from "./img/wpp.png";
 import { useEffect, useState } from "react";
 
 const AdoptaMe = () => {
+  
   const [photoList, setPhotoList] = useState();
   const [photoListCats, setPhotoListCats] = useState();
   //dogs
