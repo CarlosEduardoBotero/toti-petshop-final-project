@@ -2,7 +2,13 @@ import React from "react";
 import "./NavBar.css";
 import { Outlet, NavLink } from "react-router-dom";
 import { AiFillHome, AiFillInfoCircle } from "react-icons/ai";
-import { FaShoppingCart, FaDog, FaPaw } from "react-icons/fa";
+import {
+  FaShoppingCart,
+  FaDog,
+  FaPaw,
+  FaHandHoldingHeart,
+  FaRegCreditCard,
+} from "react-icons/fa";
 
 const NavBar = () => {
   return (
@@ -24,6 +30,12 @@ const NavBar = () => {
           </NavLink>
           <NavLink className="nav-bar-icon-container" to="/cerca-de">
             <AiFillInfoCircle className="nav-bar-icon" />
+          </NavLink>
+          <NavLink className="nav-bar-icon-container" to="/confirmacao">
+            <FaHandHoldingHeart className="nav-bar-icon" />
+          </NavLink>
+          <NavLink className="nav-bar-icon-container" to="/cart">
+            <FaRegCreditCard className="nav-bar-icon" />
           </NavLink>
         </div>
       </nav>

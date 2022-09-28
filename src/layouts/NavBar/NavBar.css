@@ -57,3 +57,6 @@
   font-size: 30px;
   color: rgb(194, 229, 194);
 }
+.servico-important {
+  color: green;
+}
