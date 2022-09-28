@@ -19,17 +19,6 @@ const AccesoriosCard = (props) => {
       </h5>
       <h2 className="preço">R${props.preço}</h2>
       <h6 className="codigo">{props.codigo}</h6>
-<<<<<<< HEAD
-      <input
-        className="Accesorios-contador"
-        type="number"
-        value={value}
-        onChange={handleChange}
-      />
-      <div className="Quantidade">
-        <h6>Quantidade</h6>
-      </div>
-=======
       {props.quantidade && (
         <input
           className="Accesorios-contador"
@@ -38,7 +27,6 @@ const AccesoriosCard = (props) => {
           onChange={handleChange}
         />
       )}
->>>>>>> 23cefb5f32105fe71f78f2497e082949016d61f5
       <div className="Accesorios-boton">
         <button className="Accesorios-bnt" onClick={props.onClick}>
           {props.buttonText}

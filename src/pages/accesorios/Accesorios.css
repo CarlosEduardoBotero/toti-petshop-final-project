@@ -19,15 +19,14 @@
 }
 .Accesorios-Conheça {
   text-align: center;
-  color: #3df13d;
+  color: #3eb33e;
   text-shadow: 2px 2px 5px rgb(14, 14, 173);
   transform: translateY(-450px);
 }
-.Accesorios-contador {
-  width: 2cm;
+
+.Quantidade {
   text-align: left;
-  color: aqua;
-  transform: translateX(-60px);
+  color: blue;
 }
 .Accessorio-foto {
   border-radius: 20px;
