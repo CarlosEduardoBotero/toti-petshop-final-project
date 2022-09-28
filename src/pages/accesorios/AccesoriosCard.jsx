@@ -25,6 +25,9 @@ const AccesoriosCard = (props) => {
         value={value}
         onChange={handleChange}
       />
+      <div className="Quantidade">
+        <h6>Quantidade</h6>
+      </div>
       <div className="Accesorios-boton">
         <button className="Accesorios-bnt" onClick={props.onClick}>
           {props.buttonText}

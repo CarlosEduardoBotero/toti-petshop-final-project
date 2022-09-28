@@ -176,6 +176,24 @@
       "quantidade": "1",
       "codigo": "COD 468556",
       "id": 4
+    },
+    {
+      "imagem": "./images/bolacores.jpg",
+      "descrição": "Bola que ajuda na Higiene dos dentes do seu pet",
+      "descontoPorcentagem": "15",
+      "desconto": "25,99",
+      "preço": "21,99",
+      "codigo": "COD 156615",
+      "id": 5
+    },
+    {
+      "imagem": "./images/bola roxa.webp",
+      "descrição": "Bola de brinquedo com pontas flexiveis",
+      "descontoPorcentagem": "30",
+      "desconto": "27,99",
+      "preço": "21,99",
+      "codigo": "COD 896321",
+      "id": 6
     }
   ]
 }
