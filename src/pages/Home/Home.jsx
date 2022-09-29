@@ -1,5 +1,22 @@
 import "./Home.css";
+import AccesoriosCard from "../accesorios/AccesoriosCard";
+import { useEffect } from "react";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
+  const [maisVendidos, setMaisVendidos] = useState([]);
+  const navigate = useNavigate();
+  const getData = async () => {
+    try {
+      const response = await fetch("http://localhost:3001/maisVendidos");
+      const data = await response.json();
+      setMaisVendidos(data);
+    } catch (error) {}
+  };
+  useEffect(() => {
+    getData();
+  }, []);
   return (
     <div className="home">
       <div className="home-bemv">
@@ -33,67 +50,21 @@ const Home = () => {
         </div>
       </div>
       <div className="homecontainercard">
-        <div className="homecard">
-          <div className="homeimgcard">
-            <img
-              className="homeimgcard"
-              src="https://love.doghero.com.br/wp-content/uploads/2019/09/Golden.jpg.jpg"
-              alt="cachorro"
-            ></img>
-            <div className="homecardtexto">
-              <h1>Sobre Cachorros</h1>
-              <p>
-                O cachorro é um mamífero quadrúpede (anda sobre quatro patas)
-                que se destaca por ter uma cauda e uma cobertura de pelos por
-                todo o seu corpo. O cão tem dois sentidos particularmente bem
-                desenvolvidos: olfato e audição o mais importante, o olfato, que
-                é fundamental para a caça, o comportamento social e sexual.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="homecard">
-          <div className="homeimgcard">
-            <img
-              className="homeimgcard"
-              src="https://i1.wp.com/gatinhobranco.com/wp-content/uploads/2014/08/cats16.jpg?resize=600%2C369"
-              alt=""
-            ></img>
-            <div className="homecardtexto">
-              <h1>Sobre Gatos</h1>
-              <p>
-                O gato (felis catus) é um mamífero carnívoro e quadrúpede
-                pertencente à família Felidae e à ordem carnívora. É um animal
-                doméstico apreciado por caçar ratos e ratazanas. Este animal
-                possui unhas retráteis, ouvidos e olfação bem aguçados, uma
-                notável visão noturna e um corpo flexível, musculoso e compacto.
-                Trata-se de um animal com boa memória e com capacidade de
-                aprender por meio da observação e da experiência.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="homecard">
-          <div className="homeimgcard">
-            <img
-              className="homeimgcard"
-              src="https://www.vetquality.com.br/wp-content/uploads/2016/07/adocao-de-caes-e-gatos.jpg"
-              alt="manoepata"
-            ></img>
-            <div className="homecardtexto">
-              <h1>Adoptar Pets</h1>
-              <p>
-                Todos os pets merecem uma vida digna, regada com muito amor e
-                proteção. Por esse motivo, ao concretizar uma adoção responsável
-                você está proporcionado uma vida de mais qualidade para o pet.
-                Além disso, ao adotar o animal de um abrigo você estará,
-                automaticamente, salvando mais de uma vida, pois o espaço do seu
-                novo melhor amigo será disponibilizado a outro animal de rua que
-                será resgatado.
-              </p>
-            </div>
-          </div>
-        </div>
+        {maisVendidos &&
+          maisVendidos.map((product) => (
+            <AccesoriosCard
+              imagem={product.imagem}
+              descrição={product.descricao}
+              descontoPorcentagem={product.descontoPorcentagem}
+              desconto={product.desconto}
+              preço={product.preco}
+              codigo={product.codigo}
+              buttonText="comprar"
+              onClick={() => {
+                navigate("/acessorios");
+              }}
+            />
+          ))}
       </div>
     </div>
   );
