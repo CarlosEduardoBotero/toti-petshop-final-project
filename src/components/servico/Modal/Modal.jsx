@@ -13,6 +13,7 @@ const ModalContainer = ({
   const modalChildreContainerRef = useRef();
 
   useEffect(() => {
+    document.body.style.overflow = "hidden";
     setTimeout(() => {
       backdropRef.current.classList.add("modal-opacity-1", "fadeIn");
       modalChildreContainerRef.current.classList.add(
@@ -26,6 +27,7 @@ const ModalContainer = ({
     if (!isOpen && modalHasBeenOpen) {
       backdropRef.current.classList.remove("modal-opacity-1");
       modalChildreContainerRef.current.classList.remove("modal-opacity-1");
+      document.body.removeAttribute("style");
 
       setTimeout(() => {
         setModalHasBeenOpen(false);
@@ -36,6 +38,7 @@ const ModalContainer = ({
   const handleClose = () => {
     backdropRef.current.classList.remove("modal-opacity-1");
     modalChildreContainerRef.current.classList.remove("modal-opacity-1");
+    document.body.removeAttribute("style");
 
     setTimeout(() => {
       onClose();
