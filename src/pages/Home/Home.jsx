@@ -1,5 +1,22 @@
 import "./Home.css";
+import AccesoriosCard from "../accesorios/AccesoriosCard";
+import { useEffect } from "react";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
+  const [maisVendidos, setMaisVendidos] = useState([]);
+  const navigate = useNavigate();
+  const getData = async () => {
+    try {
+      const response = await fetch("http://localhost:3001/maisVendidos");
+      const data = await response.json();
+      setMaisVendidos(data);
+    } catch (error) {}
+  };
+  useEffect(() => {
+    getData();
+  }, []);
   return (
     <div className="home">
       <div className="home-bemv">
@@ -33,60 +50,21 @@ const Home = () => {
         </div>
       </div>
       <div className="homecontainercard">
-        <div className="homecard">
-          <div className="homeimgcard">
-            <img
-              className="homeimgcard"
-              src="https://love.doghero.com.br/wp-content/uploads/2019/09/Golden.jpg.jpg"
-              alt="cachorro"
-            ></img>
-            <div className="homecardtexto">
-              <h1>Sobre Cachorros</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                officia, magni deserunt quos commodi nihil facere earum itaque
-                modi quo ducimus! Quibusdam obcaecati nesciunt error architecto
-                exercitationem, quam temporibus blanditiis?
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="homecard">
-          <div className="homeimgcard">
-            <img
-              className="homeimgcard"
-              src="https://i1.wp.com/gatinhobranco.com/wp-content/uploads/2014/08/cats16.jpg?resize=600%2C369"
-              alt=""
-            ></img>
-            <div className="homecardtexto">
-              <h1>Sobre Gatos</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                officia, magni deserunt quos commodi nihil facere earum itaque
-                modi quo ducimus! Quibusdam obcaecati nesciunt error architecto
-                exercitationem, quam temporibus blanditiis?
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="homecard">
-          <div className="homeimgcard">
-            <img
-              className="homeimgcard"
-              src="https://www.vetquality.com.br/wp-content/uploads/2016/07/adocao-de-caes-e-gatos.jpg"
-              alt="manoepata"
-            ></img>
-            <div className="homecardtexto">
-              <h1>Sobre Adoptar Pets</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                officia, magni deserunt quos commodi nihil facere earum itaque
-                modi quo ducimus! Quibusdam obcaecati nesciunt error architecto
-                exercitationem, quam temporibus blanditiis?
-              </p>
-            </div>
-          </div>
-        </div>
+        {maisVendidos &&
+          maisVendidos.map((product) => (
+            <AccesoriosCard
+              imagem={product.imagem}
+              descrição={product.descricao}
+              descontoPorcentagem={product.descontoPorcentagem}
+              desconto={product.desconto}
+              preço={product.preco}
+              codigo={product.codigo}
+              buttonText="comprar"
+              onClick={() => {
+                navigate("/acessorios");
+              }}
+            />
+          ))}
       </div>
     </div>
   );
