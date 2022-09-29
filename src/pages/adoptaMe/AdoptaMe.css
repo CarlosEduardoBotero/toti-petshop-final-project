@@ -83,7 +83,6 @@
 
 .Adoptameimgrodape {
   display: flex;
-
 }
 
 .AdoptaMerodape {
@@ -105,7 +104,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .AdoptaMebtntext {
@@ -126,4 +124,54 @@
   transform: scale(1.2);
 }
 
+.adota-me-modal-container {
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px;
+  width: 700px;
+  height: 500px;
+  padding: 20px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 11px 15px -7px,
+    rgb(0 0 0 / 14%) 0px 24px 38px 3px, rgb(0 0 0 / 12%) 0px 9px 46px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
 
+.adota-me-modal-container img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.adota-me-modal-container button {
+  align-self: flex-end;
+  background-color: #398639;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.adota-me-modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.adota-me-modal-form-input {
+  padding: 5px;
+  border-radius: 3px;
+  border-color: transparent;
+  background-color: rgb(116, 116, 116);
+  color: white;
+}
+
+.adota-me-modal-form-input:focus {
+  outline-color: white;
+  outline: 0px;
+}
