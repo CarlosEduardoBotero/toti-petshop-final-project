@@ -32,5 +32,13 @@ export const CardDatosCats = [
     titulo: "PORTHOS",
     genero: "MACHO",
   },
+  {
+    titulo: "MISIFU",
+    genero: "MACHO",
+  },
+  {
+    titulo: "THOMAS",
+    genero: "MACHO",
+  },
 ];
 
