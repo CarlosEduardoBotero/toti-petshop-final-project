@@ -45,8 +45,10 @@ const Home = () => {
           <h1>Doces de Cuidado</h1>
         </div>
         <div className="home-textotres">
-          <h2>Todo para higiene do seu pet</h2>
-          <h1>Banho & Tosa </h1> <h1>TheRoyalPet</h1>
+          <h2>
+            Todo para higiene <br></br>do seu pet
+          </h2>
+          <h1>Banho & Tosa </h1>
         </div>
       </div>
       <div className="homecontainercard">
