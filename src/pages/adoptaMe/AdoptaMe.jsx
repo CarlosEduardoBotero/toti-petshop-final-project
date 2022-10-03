@@ -4,8 +4,6 @@ import { CardDatosCats } from "./datosCats";
 import { CardDatosDogs } from "./datosDogs";
 import facebook from "./img/facebook.png";
 import instagram from "./img/Instagram.png";
-import imgrodape from "./img/catsdogs.png";
-import imgrodape2 from "./img/catsdogs2.png";
 import wsp from "./img/wpp.png";
 import { useEffect, useState } from "react";
 
@@ -16,7 +14,7 @@ const AdoptaMe = () => {
   async function getPets() {
     try {
       const response = await fetch(
-        "https://dog.ceo/api/breed/hound/images/random/8s"
+        "https://dog.ceo/api/breed/hound/images/random/9s"
       );
       const data = await response.json();
       console.log(data);
@@ -28,7 +26,7 @@ const AdoptaMe = () => {
   async function getCats() {
     try {
       const response = await fetch(
-        "https://api.thecatapi.com/v1/images/search?limit=8"
+        "https://api.thecatapi.com/v1/images/search?limit=9"
       );
       const data = await response.json();
       console.log(data);
@@ -62,7 +60,7 @@ const AdoptaMe = () => {
     <div>
       <div className="AdoptaMeheader">
         <h1 className="AdoptaMetextprincipal">
-          Amor verdadeiro de um novo amigo, adote!
+          Amor verdadeiro de um <br></br> novo amigo, adote!
         </h1>
       </div>
       <h3 className="AdoptaMetextsecundario">
@@ -94,10 +92,7 @@ const AdoptaMe = () => {
             />
           ))}
       </div>
-      <div className="Adoptameimgrodape">
-        <img src={imgrodape}></img>
-        <img src={imgrodape2}></img>
-      </div>
+
       <div className="AdoptaMerodape">
         <div className="AadoptaMemsg">
           <p>Me leva pra casa?</p>
@@ -110,13 +105,13 @@ const AdoptaMe = () => {
         <div className="AdoptaMebtntext">
           <h4>Compartilhar:</h4>
           <a href="https://www.facebook.com/">
-            <img className="AdoptaMebtnfiw" src={facebook}></img>
+            <img className="AdoptaMebtnfiw" src={facebook} alt="Facebooks" />
           </a>
           <a href="https://www.instagram.com/">
-            <img className="AdoptaMebtnfiw" src={instagram}></img>
+            <img className="AdoptaMebtnfiw" src={instagram} alt="Instagram" />
           </a>
           <a href="https://web.whatsapp.com/">
-            <img className="AdoptaMebtnfiw" src={wsp}></img>
+            <img className="AdoptaMebtnfiw" src={wsp} alt="whatsapp" />
           </a>
         </div>
         <p className="AdoptaMedireitos">

@@ -31,5 +31,13 @@ export const CardDatosDogs = [
     titulo: "BEPPO",
     genero: "MACHO",
   },
+  {
+    titulo: "BOBY",
+    genero: "MACHO",
+  },
+  {
+    titulo: "NALA",
+    genero: "FÊMEA",
+  },
 ];
 
