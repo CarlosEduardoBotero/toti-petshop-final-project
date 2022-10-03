@@ -10,7 +10,6 @@ import wsp from "./img/wpp.png";
 import { useEffect, useState } from "react";
 
 const AdoptaMe = () => {
-  
   const [photoList, setPhotoList] = useState();
   const [photoListCats, setPhotoListCats] = useState();
   //dogs
@@ -83,13 +82,6 @@ const AdoptaMe = () => {
               titulo={CardDatosDogs[i].titulo}
               genero={CardDatosDogs[i].genero}
               buttonText="Adota-me"
-              onClick={() =>
-                postsPet(
-                  photo,
-                  CardDatosDogs[i].titulo,
-                  CardDatosDogs[i].genero
-                )
-              }
             />
           ))}
         {photoListCats &&
@@ -99,13 +91,6 @@ const AdoptaMe = () => {
               titulo={CardDatosCats[i].titulo}
               genero={CardDatosCats[i].genero}
               buttonText="Adota-me"
-              onClick={() =>
-                postsPet(
-                  photo.url,
-                  CardDatosCats[i].titulo,
-                  CardDatosCats[i].genero
-                )
-              }
             />
           ))}
       </div>

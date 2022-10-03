@@ -65,7 +65,6 @@ const Accesorios = () => {
                 preço={product.preco}
                 codigo={product.codigo}
                 buttonText="comprar"
-                onClick={() => postProducts(product)}
                 quantidade={product.quantidade}
               />
             ))}
