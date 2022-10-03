@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import AdoptaMeCard from "../adoptaMe/AdoptaMeCard";
 import "./PetConfirmation.css";
 import { FaArrowLeft } from "react-icons/fa";
-import Modal from "../../components/servico/Modal/Modal";
+import Modal from "../../components/Modal/Modal";
 
 const PetConfirmation = () => {
   const [petsData, setPetsData] = useState([]);

@@ -5,7 +5,6 @@ import AdoptaMe from "./pages/adoptaMe/AdoptaMe";
 import Accesorios from "./pages/accesorios/Accesorios.";
 import NavBar from "./layouts/NavBar/NavBar";
 import AcercaDe from "./AcercaDe/AcercaDe";
-import Servico from "./components/servico/Servico";
 import PetConfirmation from "./pages/PetConfimation/PetConfirmation";
 import SeusPedidos from "./pages/SeusPedidos/SeusPedidos";
 import { ToastContainer } from "react-toastify";
@@ -31,7 +30,6 @@ const App = () => {
           <Route path="/adote-me" element={<AdoptaMe></AdoptaMe>} />
           <Route path="/acessorios" element={<Accesorios></Accesorios>} />
           <Route path="/cerca-de" element={<AcercaDe></AcercaDe>} />
-          <Route path="/nossos-servicos" element={<Servico />} />
           <Route path="/confirmacao" element={<PetConfirmation />} />
           <Route path="/cart" element={<SeusPedidos />} />
         </Route>

@@ -1,7 +1,7 @@
 import "./Accesorios.css";
 import "./AccesoriosCard.css";
 import { useState } from "react";
-import Modal from "../../components/servico/Modal/Modal";
+import Modal from "../../components/Modal/Modal";
 import { toast } from "react-toastify";
 
 const AccesoriosCard = (props) => {

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Modal from "../../components/servico/Modal/Modal";
+import Modal from "../../components/Modal/Modal";
 import "./SeusPedidosCard.css";
 import { TbTruckDelivery } from "react-icons/tb";
 import { toast } from "react-toastify";

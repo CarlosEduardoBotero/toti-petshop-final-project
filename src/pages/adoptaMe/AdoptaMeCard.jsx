@@ -1,5 +1,5 @@
 import "./AdoptaMe.css";
-import Modal from "../../components/servico/Modal/Modal";
+import Modal from "../../components/Modal/Modal";
 import { useState } from "react";
 import { toast } from "react-toastify";
 
