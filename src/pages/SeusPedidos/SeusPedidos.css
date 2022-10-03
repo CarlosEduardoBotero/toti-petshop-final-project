@@ -1,0 +1,16 @@
+.seus-pedidos-container {
+  padding: 10px 40px 40px;
+  width: 100%;
+}
+
+.seus-pedidos-container h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.seus-pedidos-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
