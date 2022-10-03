@@ -21,7 +21,7 @@
       "descricao": "Kit para seu pet comer e beber agua",
       "descontoPorcentagem": "25",
       "desconto": "24,99",
-      "preco": "19,99",
+      "preco": "19.99",
       "quantidade": "1",
       "codigo": "COD 554564"
     },
@@ -31,7 +31,7 @@
       "descricao": "Bola de brinquedo com pontas flexiveis",
       "descontoPorcentagem": "30",
       "desconto": "27,99",
-      "preco": "21,99",
+      "preco": "21.99",
       "quantidade": "1",
       "codigo": "COD 896321"
     },
@@ -41,7 +41,7 @@
       "descricao": "Bola que ajuda na Higiene dos dentes do seu pet",
       "descontoPorcentagem": "15",
       "desconto": "25,99",
-      "preco": "21,99",
+      "preco": "21.99",
       "quantidade": "1",
       "codigo": "COD 156615"
     },
@@ -51,7 +51,7 @@
       "descricao": "Correntinha de luxo com pendente para nome",
       "descontoPorcentagem": "20",
       "desconto": "59,90",
-      "preco": "47,90",
+      "preco": "47.90",
       "quantidade": "1",
       "codigo": "COD 183674"
     },
@@ -61,7 +61,7 @@
       "descricao": "Caixa de viagem para transportar seu pet",
       "descontoPorcentagem": "10",
       "desconto": "44,99",
-      "preco": "39,99",
+      "preco": "39.99",
       "quantidade": "1",
       "codigo": "COD 574961"
     },
@@ -71,7 +71,7 @@
       "descricao": "Cama para o seu pet ter más comodidade",
       "descontoPorcentagem": "15",
       "desconto": "51,99",
-      "preco": "47,99",
+      "preco": "47.99",
       "quantidade": "1",
       "codigo": "COD 013697"
     },
@@ -81,7 +81,7 @@
       "descricao": "Alicate para cortar a unha do seu pet",
       "descontoPorcentagem": "5",
       "desconto": "28,75",
-      "preco": "24,99",
+      "preco": "24.99",
       "quantidade": "1",
       "codigo": "COD 970568"
     },
@@ -91,7 +91,7 @@
       "descricao": "Brinquedo para manter seu gato distraido",
       "descontoPorcentagem": "25",
       "desconto": "19,99",
-      "preco": "15,99",
+      "preco": "15.99",
       "quantidade": "1",
       "codigo": "COD 187956"
     },
@@ -101,7 +101,7 @@
       "descricao": "Peixe de brinquedo eletrico para gato com cabo USB",
       "descontoPorcentagem": "10",
       "desconto": "54,99",
-      "preco": "49,99",
+      "preco": "49.99",
       "quantidade": "1",
       "codigo": "COD 468556"
     },
@@ -111,7 +111,7 @@
       "descricao": "Limpador de orelha para  higiene do seu pet",
       "descontoPorcentagem": "15",
       "desconto": "21,99",
-      "preco": "17,99",
+      "preco": "17.99",
       "quantidade": "1",
       "codigo": "COD 482697"
     },
@@ -121,7 +121,7 @@
       "descricao": "Coleira cor azul para passiar seu pet",
       "descontoPorcentagem": "20",
       "desconto": "34,99",
-      "preco": "28,99",
+      "preco": "28.99",
       "quantidade": "1",
       "codigo": "COD 497834"
     },
@@ -131,7 +131,7 @@
       "descricao": "Tapetes descartaveis para higiene do seu pet",
       "descontoPorcentagem": "10",
       "desconto": "25,00",
-      "preco": "18,00",
+      "preco": "18.00",
       "quantidade": "1",
       "codigo": "COD 451623"
     }
@@ -142,9 +142,9 @@
       "descrição": "blabla",
       "descontoPorcentagem": "25",
       "desconto": "13.95",
-      "preço": "20",
-      "quantidade": "1",
+      "preco": "20",
       "codigo": "cn005",
+      "quantidade": "1",
       "id": 1
     },
     {
@@ -152,9 +152,9 @@
       "descrição": "blabla",
       "descontoPorcentagem": "25",
       "desconto": "13.95",
-      "preço": "20",
-      "quantidade": "1",
+      "preco": "20",
       "codigo": "cn005",
+      "quantidade": "2",
       "id": 2
     },
     {
@@ -162,7 +162,7 @@
       "descrição": "blabla",
       "descontoPorcentagem": "25",
       "desconto": "13.95",
-      "preço": "20",
+      "preco": "20",
       "quantidade": "1",
       "codigo": "cn005",
       "id": 3
@@ -172,7 +172,7 @@
       "descrição": "Peixe de brinquedo eletrico para gato com cabo USB",
       "descontoPorcentagem": "10",
       "desconto": "54,99",
-      "preço": "49,99",
+      "preco": "49.99",
       "quantidade": "1",
       "codigo": "COD 468556",
       "id": 4
@@ -206,6 +206,14 @@
       "desconto": "25,99",
       "preco": "21,99",
       "codigo": "COD 156615"
+    }
+  ],
+  "contact": [
+    {
+      "nome": "Jose",
+      "email": "henrycalderon001@gmail.com",
+      "menssage": "Hola",
+      "id": 1
     }
   ]
 }

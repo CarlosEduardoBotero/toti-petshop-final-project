@@ -1,0 +1,118 @@
+.acercadeimgprincipal {
+    margin:auto;
+    display:block;  
+}
+
+.acercadeimgpolitica {
+    height: 240px;
+    width:1680px; 
+}
+
+.AcercaDeh2 {
+    padding: 10px 0px;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: #398639; 
+}
+
+.AcercaDep{
+    font-size: 25px;
+    padding: 2px 10px 10px;
+    text-align: justify;
+    color: #5C4A35;
+}
+
+.AcercaDeh4 {
+    padding: 2px 10px 0px;
+    font-weight: 900;
+    font-size: 25px;
+    text-align:justify;
+    color: #398639;  
+}
+
+.AcercaDeRodape {
+    background-color: #398639;
+    width:100%;
+    height:100%;
+    color: #5C4A35;
+    padding: 30px;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+}
+
+.AcercaDeformulario {
+    background-color: orange;
+    font-size: 25px;
+    min-height: 50vh;
+    min-width: 30vh;
+    display: block;
+    padding: 30px;
+    text-align: center;
+    border:10px solid #c2e5c2;
+    border-radius: 8px;
+
+}
+
+.AcercaDeformulario:hover {
+    box-shadow: 0 8px 16px 0 rgba(8, 8, 8, 0.971);
+}
+
+.AcercaDeconten {
+    margin: 0 auto;
+    width: 400px;
+    text-align: justify;
+    padding: 2em 0em 0em 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5C4A35;
+}
+
+.AcercaDeinput {
+    width: 400px;
+    padding:20px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #5C4A35;
+    align-items: center; font: 1em sans-serif;
+}
+
+.AcercaDemessage {
+    width: 400px;
+    padding:20px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #5C4A35;
+    align-items: center; font: 1em sans-serif;
+}
+
+.AcercaDemessage {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.AcercaDebtn {
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    color: #c2e5c2;
+    background-color: #5C4A35;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    border: 0px;
+    align-items: center;
+}
+
+.AcercaDebtn:hover {
+    background-color: #c2e5c2;
+    color: #5C4A35;
+}
+
+.AcercaDeder {
+    color: #c2e5c2;
+    padding: 20px;  
+}
