@@ -177,5 +177,35 @@
       "codigo": "COD 468556",
       "id": 4
     }
+  ],
+  "maisVendidos": [
+    {
+      "id": 1,
+      "cantidad": 12,
+      "imagem": "./images/bebedouro.jpg",
+      "descricao": "Kit para seu pet comer e beber agua",
+      "descontoPorcentagem": "25",
+      "desconto": "24,99",
+      "preco": "19,99",
+      "codigo": "COD 554564"
+    },
+    {
+      "id": 2,
+      "imagem": "./images/bola roxa.webp",
+      "descricao": "Bola de brinquedo com pontas flexiveis",
+      "descontoPorcentagem": "30",
+      "desconto": "27,99",
+      "preco": "21,99",
+      "codigo": "COD 896321"
+    },
+    {
+      "id": 3,
+      "imagem": "./images/bolacores.jpg",
+      "descricao": "Bola que ajuda na Higiene dos dentes do seu pet",
+      "descontoPorcentagem": "15",
+      "desconto": "25,99",
+      "preco": "21,99",
+      "codigo": "COD 156615"
+    }
   ]
 }
