@@ -60,3 +60,14 @@
 .servico-important {
   color: green;
 }
+
+@media screen and (max-width: 650px) {
+  .nav-bar-title-container {
+    display: none;
+  }
+
+  .nav-bar-navlink-container {
+    display: flex;
+    gap: 0px;
+  }
+}
