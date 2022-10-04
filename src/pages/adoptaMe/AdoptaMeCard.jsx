@@ -103,7 +103,7 @@ const AdoptaMeCard = (props) => {
               placeholder="Deixa aquí seu telefone..."
               onChange={handleChange}
               required
-              pattern="^[0-9]"
+              pattern="^[0-9]+"
             />
 
             <button>confirmar</button>
