@@ -186,7 +186,7 @@
       "descricao": "Kit para seu pet comer e beber agua",
       "descontoPorcentagem": "25",
       "desconto": "24,99",
-      "preco": "19,99",
+      "preco": "19.99",
       "codigo": "COD 554564"
     },
     {
@@ -195,7 +195,7 @@
       "descricao": "Bola de brinquedo com pontas flexiveis",
       "descontoPorcentagem": "30",
       "desconto": "27,99",
-      "preco": "21,99",
+      "preco": "21.99",
       "codigo": "COD 896321"
     },
     {
@@ -204,7 +204,7 @@
       "descricao": "Bola que ajuda na Higiene dos dentes do seu pet",
       "descontoPorcentagem": "15",
       "desconto": "25,99",
-      "preco": "21,99",
+      "preco": "21.99",
       "codigo": "COD 156615"
     }
   ],
