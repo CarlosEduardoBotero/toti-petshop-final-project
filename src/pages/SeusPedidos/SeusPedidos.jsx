@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import SeusPedidosCard from "./SeusPedidosCard";
 import "./SeusPedidos.css";
+import { toast } from "react-toastify";
 
 const SeusPedidos = () => {
   const [cartData, setCartData] = useState([]);
@@ -14,12 +15,28 @@ const SeusPedidos = () => {
     }
   };
 
+  const deleteProduct = async (productID) => {
+    try {
+      await toast.promise(
+        fetch(`http://localhost:3001/cart/${productID}`, {
+          method: "DELETE",
+        }),
+        {
+          pending: "Removendo",
+          success: "Remoção feita com sucesso",
+          error: "Ocurreu um erro",
+        }
+      );
+      setCartData((prev) => prev.filter((item) => item.id !== productID));
+    } catch (error) {}
+  };
+
   useEffect(() => {
     getData();
   }, []);
   return (
     <div className="seus-pedidos-container">
-      <h1>SeusPedidos</h1>
+      <h1>Seus Pedidos</h1>
 
       <div className="seus-pedidos-card-container">
         {cartData &&
@@ -35,6 +52,7 @@ const SeusPedidos = () => {
               codigo={product.codigo}
               buttonText="cancelar"
               quantidade={product.quantidade}
+              onDeleteProduct={() => deleteProduct(product.id)}
             />
           ))}
       </div>
