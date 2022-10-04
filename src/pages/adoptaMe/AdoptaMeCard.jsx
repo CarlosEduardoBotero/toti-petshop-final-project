@@ -73,7 +73,7 @@ const AdoptaMeCard = (props) => {
       <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
         <div className="adota-me-modal-container">
           <h1>você vai adotar: {props.titulo}</h1>
-          <img src={props.imagen} />
+          <img src={props.imagen} alt="imagen"/>
           <form className="adota-me-modal-form" onSubmit={postsPet}>
             <label>Nome:</label>
             <input

@@ -50,7 +50,7 @@ height: 14cm;
     min-height: 40vh;
     min-width: 20vh;
     display: block;
-    padding: 30px;
+    padding: 15px;
     text-align: center;
     border:10px solid #c2e5c2;
     border-radius: 8px;
@@ -63,7 +63,7 @@ height: 14cm;
 
 .AcercaDeconten {
     margin: 0 auto;
-    width: 400px;
+    width: 300px;
     text-align: justify;
     padding: 2em 0em 0em 0em;
     font-family: Arial, Helvetica, sans-serif;
@@ -71,8 +71,8 @@ height: 14cm;
 }
 
 .AcercaDeinput {
-    width: 400px;
-    padding:20px;
+    width: 300px;
+    padding:10px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 10px;
@@ -81,8 +81,8 @@ height: 14cm;
 }
 
 .AcercaDemessage {
-    width: 400px;
-    padding:20px;
+    width: 300px;
+    padding:10px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 10px;
