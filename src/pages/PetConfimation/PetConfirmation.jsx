@@ -35,7 +35,7 @@ const PetConfirmation = () => {
 
   return (
     <div className="pet-confirmation-container">
-      <h1 className="pet-confirmation-title">Adopciones en proceso</h1>
+      <h1 className="pet-confirmation-title">Adoções em andamento</h1>
       <Link to="/adote-me" className="pet-confirmation-link">
         <FaArrowLeft />
         Adotar Pets
