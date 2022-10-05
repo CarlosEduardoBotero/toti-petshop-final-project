@@ -15,7 +15,6 @@ const AdoptaMeCard = (props) => {
     const { value, name } = e.target;
 
     setForm((prev) => ({ ...prev, [name]: value }));
-    console.log(form);
   };
 
   const handleOpenModal = () => setIsModalOpen(true);
@@ -41,7 +40,7 @@ const AdoptaMeCard = (props) => {
         }),
         {
           pending: "Promise is pending",
-          success: "Compra bem sucedida",
+          success: "Adoção bem sucedida",
           error: "Ocurreu um erro",
         }
       );
@@ -55,7 +54,7 @@ const AdoptaMeCard = (props) => {
     <>
       <div className="AdoptaMecard">
         <img src={props.imagen} alt="pet" width={200} height={180}></img>
-        <div class="AdoptaMecontainer">
+        <div className="AdoptaMecontainer">
           <h1>{props.titulo}</h1>
         </div>
         <div className="AdoptaMedescp">
@@ -73,7 +72,7 @@ const AdoptaMeCard = (props) => {
       <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
         <div className="adota-me-modal-container">
           <h1>você vai adotar: {props.titulo}</h1>
-          <img src={props.imagen} alt="imagen"/>
+          <img src={props.imagen} alt="imagen" />
           <form className="adota-me-modal-form" onSubmit={postsPet}>
             <label>Nome:</label>
             <input

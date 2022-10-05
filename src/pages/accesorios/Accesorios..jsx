@@ -10,7 +10,6 @@ const Accesorios = () => {
       const response = await fetch("http://localhost:3001/products");
       const data = await response.json();
       setProducts(data);
-      console.log(data);
     } catch (error) {
       console.log(error);
     }
@@ -58,6 +57,7 @@ const Accesorios = () => {
           {products &&
             products.map((product) => (
               <AccesoriosCard
+                key={product.id}
                 imagem={product.imagem}
                 descrição={product.descricao}
                 descontoPorcentagem={product.descontoPorcentagem}

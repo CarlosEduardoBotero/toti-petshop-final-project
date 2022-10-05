@@ -15,17 +15,15 @@ const PetConfirmation = () => {
       const response = await fetch("http://localhost:3001/adotar");
       const data = await response.json();
       setPetsData(data);
-      console.log(data);
     } catch (error) {}
   };
 
   const deletePet = async (petID) => {
     try {
-      const deletePet = await fetch(`http://localhost:3001/adotar/${petID}`, {
+      await fetch(`http://localhost:3001/adotar/${petID}`, {
         method: "DELETE",
       });
       setPetsData((prev) => prev.filter((item) => item.id !== petID));
-      console.log(deletePet);
     } catch (error) {}
   };
 
@@ -43,6 +41,7 @@ const PetConfirmation = () => {
       <div className="pet-confirmation-cards-container">
         {petsData.map((item) => (
           <AdoptaMeCard
+            key={item.id}
             titulo={item.titulo}
             imagen={item.imagen}
             genero={item.genero}

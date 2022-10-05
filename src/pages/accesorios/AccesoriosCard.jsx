@@ -102,7 +102,7 @@ const AccesoriosCard = (props) => {
           <form onSubmit={postProducts} className="accesorios-card-modal-form">
             <div className="accesorios-card-modal-form-inputs-container">
               <div>
-                <label>Tarjeta de credito</label>
+                <label>Cartão de credito</label>
                 <input type="numeric" required />
               </div>
               <div>

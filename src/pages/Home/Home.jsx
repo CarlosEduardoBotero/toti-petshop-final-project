@@ -55,6 +55,7 @@ const Home = () => {
         {maisVendidos &&
           maisVendidos.map((product) => (
             <AccesoriosCard
+              key={product.id}
               imagem={product.imagem}
               descrição={product.descricao}
               descontoPorcentagem={product.descontoPorcentagem}
