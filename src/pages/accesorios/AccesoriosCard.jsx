@@ -43,7 +43,7 @@ const AccesoriosCard = (props) => {
         }),
         {
           pending: "Promise is pending",
-          success: "Compra bem sucedida",
+          success: "Adicionado ao carrinho de compras",
           error: "Ocurreu um erro",
         }
       );
@@ -99,29 +99,12 @@ const AccesoriosCard = (props) => {
               </div>
             </div>
           </div>
-          <form onSubmit={postProducts} className="accesorios-card-modal-form">
-            <div className="accesorios-card-modal-form-inputs-container">
-              <div>
-                <label>Cartão de credito</label>
-                <input type="numeric" required />
-              </div>
-              <div>
-                <label>CVV</label>
-                <input
-                  type="text"
-                  pattern="^[0-9]{3}"
-                  title="Enter numbers only."
-                  required
-                />
-              </div>
-            </div>
-            <button
-              className="accesorios-card-modal-confirmation-card-button"
-              type="submit"
-            >
-              Confirmar Compra
-            </button>
-          </form>
+          <button
+            className="accesorios-card-modal-confirmation-card-button"
+            onClick={postProducts}
+          >
+            Adicionar ao carrinho
+          </button>
         </div>
       </Modal>
     </>
