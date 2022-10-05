@@ -1,18 +1,5 @@
 {
-  "adotar": [
-    {
-      "id": 1,
-      "imagen": "https://images.dog.ceo/breeds/borzoi/n02090622_6372.jpg",
-      "titulo": "typicode",
-      "genero": "url"
-    },
-    {
-      "id": 2,
-      "imagen": "https://images.dog.ceo/breeds/chihuahua/n02085620_8491.jpg",
-      "titulo": "typicode",
-      "genero": "url"
-    }
-  ],
+  "adotar": [],
   "products": [
     {
       "id": 1,
@@ -136,48 +123,7 @@
       "codigo": "COD 451623"
     }
   ],
-  "cart": [
-    {
-      "imagem": "./images/bebedouro.jpg",
-      "descrição": "blabla",
-      "descontoPorcentagem": "25",
-      "desconto": "13.95",
-      "preco": "20",
-      "codigo": "cn005",
-      "quantidade": "1",
-      "id": 1
-    },
-    {
-      "imagem": "./images/bola roxa.webp",
-      "descrição": "blabla",
-      "descontoPorcentagem": "25",
-      "desconto": "13.95",
-      "preco": "20",
-      "codigo": "cn005",
-      "quantidade": "2",
-      "id": 2
-    },
-    {
-      "imagem": "./images/bolacores.jpg",
-      "descrição": "blabla",
-      "descontoPorcentagem": "25",
-      "desconto": "13.95",
-      "preco": "20",
-      "quantidade": "1",
-      "codigo": "cn005",
-      "id": 3
-    },
-    {
-      "imagem": "./images/gato com peixe.jpg",
-      "descrição": "Peixe de brinquedo eletrico para gato com cabo USB",
-      "descontoPorcentagem": "10",
-      "desconto": "54,99",
-      "preco": "49.99",
-      "quantidade": "1",
-      "codigo": "COD 468556",
-      "id": 4
-    }
-  ],
+  "cart": [],
   "maisVendidos": [
     {
       "id": 1,
@@ -208,12 +154,6 @@
       "codigo": "COD 156615"
     }
   ],
-  "contact": [
-    {
-      "nome": "Jose",
-      "email": "henrycalderon001@gmail.com",
-      "menssage": "Hola",
-      "id": 1
-    }
-  ]
+  "contact": [],
+  "payment": []
 }
