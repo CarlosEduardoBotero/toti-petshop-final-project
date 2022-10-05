@@ -13,6 +13,7 @@ const SeusPedidosCard = ({
   descontoPorcentagem,
   codigo,
   id,
+  onDeleteProduct,
 }) => {
   const [openCancelationModal, setOpenCancelationModal] = useState(false);
   const [openModifyProductModal, setOpenModifyProductModal] = useState(false);
@@ -105,6 +106,7 @@ const SeusPedidosCard = ({
           <button
             onClick={() => {
               setOpenCancelationModal(false);
+              onDeleteProduct();
             }}
             className="pet-confirmation-modal-button"
           >

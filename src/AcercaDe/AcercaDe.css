@@ -1,11 +1,13 @@
 .acercadeimgprincipal {
-    margin:auto;
-    display:block;  
+height: 14cm;
+    width:100%;
+    
+
 }
 
 .acercadeimgpolitica {
     height: 240px;
-    width:1680px; 
+    width:100%; 
 }
 
 .AcercaDeh2 {
@@ -18,13 +20,13 @@
 
 .AcercaDep{
     font-size: 25px;
-    padding: 2px 10px 10px;
+    padding: 2px 25px 0px;
     text-align: justify;
     color: #5C4A35;
 }
 
 .AcercaDeh4 {
-    padding: 2px 10px 0px;
+    padding: 2px 25px 0px;
     font-weight: 900;
     font-size: 25px;
     text-align:justify;
@@ -38,17 +40,17 @@
     color: #5C4A35;
     padding: 30px;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     align-items: center;
 }
 
 .AcercaDeformulario {
     background-color: orange;
     font-size: 25px;
-    min-height: 50vh;
-    min-width: 30vh;
+    min-height: 40vh;
+    min-width: 20vh;
     display: block;
-    padding: 30px;
+    padding: 15px;
     text-align: center;
     border:10px solid #c2e5c2;
     border-radius: 8px;
@@ -61,7 +63,7 @@
 
 .AcercaDeconten {
     margin: 0 auto;
-    width: 400px;
+    width: 300px;
     text-align: justify;
     padding: 2em 0em 0em 0em;
     font-family: Arial, Helvetica, sans-serif;
@@ -69,8 +71,8 @@
 }
 
 .AcercaDeinput {
-    width: 400px;
-    padding:20px;
+    width: 300px;
+    padding:10px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 10px;
@@ -79,8 +81,8 @@
 }
 
 .AcercaDemessage {
-    width: 400px;
-    padding:20px;
+    width: 300px;
+    padding:10px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 10px;

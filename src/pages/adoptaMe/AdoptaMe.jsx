@@ -34,23 +34,6 @@ const AdoptaMe = () => {
     } catch (error) {}
   }
 
-  async function postsPet(imagen, titulo, genero) {
-    try {
-      await fetch("http://localhost:3001/adotar", {
-        method: "POST",
-        headers: {
-          Accept: "application/json, text/plain, */*",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          imagen: imagen,
-          titulo: titulo,
-          genero: genero,
-        }),
-      });
-    } catch (error) {}
-  }
-
   useEffect(() => {
     getCats();
     getPets();
