@@ -7,6 +7,7 @@ import {
   FaDog,
   FaPaw,
   FaHandHoldingHeart,
+  FaShoppingBag,
 } from "react-icons/fa";
 
 import { GoPackage } from "react-icons/go";
@@ -24,7 +25,7 @@ const NavBar = () => {
             <AiFillHome className="nav-bar-icon" />
           </NavLink>
           <NavLink className="nav-bar-icon-container" to="/acessorios">
-            <FaShoppingCart className="nav-bar-icon" />
+            <FaShoppingBag className="nav-bar-icon" />
           </NavLink>
           <NavLink className="nav-bar-icon-container" to="/adote-me">
             <FaDog className="nav-bar-icon" />
@@ -36,7 +37,7 @@ const NavBar = () => {
             <FaHandHoldingHeart className="nav-bar-icon" />
           </NavLink>
           <NavLink className="nav-bar-icon-container" to="/cart">
-            <GoPackage className="nav-bar-icon" />
+            <FaShoppingCart className="nav-bar-icon" />
           </NavLink>
         </div>
       </nav>
