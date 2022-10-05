@@ -17,7 +17,6 @@ const AdoptaMe = () => {
         "https://dog.ceo/api/breed/hound/images/random/9s"
       );
       const data = await response.json();
-      console.log(data);
       setPhotoList(data.message);
     } catch (error) {}
   }
@@ -29,7 +28,6 @@ const AdoptaMe = () => {
         "https://api.thecatapi.com/v1/images/search?limit=9"
       );
       const data = await response.json();
-      console.log(data);
       setPhotoListCats(data);
     } catch (error) {}
   }
@@ -59,6 +57,7 @@ const AdoptaMe = () => {
         {photoList &&
           photoList.map((photo, i) => (
             <AdoptaMeCard
+              key={i}
               imagen={photo}
               titulo={CardDatosDogs[i].titulo}
               genero={CardDatosDogs[i].genero}
@@ -68,6 +67,7 @@ const AdoptaMe = () => {
         {photoListCats &&
           photoListCats.map((photo, i) => (
             <AdoptaMeCard
+              key={i}
               imagen={photo.url}
               titulo={CardDatosCats[i].titulo}
               genero={CardDatosCats[i].genero}

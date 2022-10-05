@@ -14,6 +14,7 @@ const SeusPedidosCard = ({
   codigo,
   id,
   onDeleteProduct,
+  setCartData,
 }) => {
   const [openCancelationModal, setOpenCancelationModal] = useState(false);
   const [openModifyProductModal, setOpenModifyProductModal] = useState(false);
@@ -58,6 +59,11 @@ const SeusPedidosCard = ({
         }
       );
       setQuantity(value);
+      setCartData((prev) =>
+        prev.map((item) =>
+          item.id === id ? { ...item, quantidade: value } : item
+        )
+      );
     } catch (error) {
       console.log(error);
     } finally {
