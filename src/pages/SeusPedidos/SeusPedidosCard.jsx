@@ -79,7 +79,9 @@ const SeusPedidosCard = ({
           <p className="seus-pedidos-text-description">
             Quantidade: {quantity}
           </p>
-          <p className="seus-pedidos-text-description">Desconto: {desconto}</p>
+          <s className="seus-pedidos-text-description seus-pedidos-desconto">
+            R${desconto}
+          </s>
           <p className="seus-pedidos-text-description">
             Total: {formatBrasilCurrency(+preço * +quantity)}
           </p>
