@@ -127,7 +127,7 @@ const SeusPedidos = () => {
 
   return (
     <div className="seus-pedidos-container">
-      <h1>Seus Pedidos</h1>
+      <h1>Carrinho de Compras</h1>
       <div className="seus-pedidos-card-container">
         {cartData &&
           cartData.map((product) => (

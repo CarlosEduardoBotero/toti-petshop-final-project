@@ -2,27 +2,33 @@ import "./AdoptaMe.css";
 import Modal from "../../components/Modal/Modal";
 import { useState } from "react";
 import { toast } from "react-toastify";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
+import { useForm } from "react-hook-form";
+
+const validation = yup.object().shape({
+  name: yup.string().required("nome é um campo obrigatório"),
+  email: yup.string().required("email é um campo obrigatório"),
+  telephoneNumber: yup.string().required("telefone é um campo obrigatório"),
+});
 
 const AdoptaMeCard = (props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    telephoneNumber: "",
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm({
+    resolver: yupResolver(validation),
   });
-
-  const handleChange = (e) => {
-    const { value, name } = e.target;
-
-    setForm((prev) => ({ ...prev, [name]: value }));
-  };
 
   const handleOpenModal = () => setIsModalOpen(true);
 
   const handleCloseModal = () => setIsModalOpen(false);
 
-  async function postsPet(e) {
-    e.preventDefault();
+  async function postsPet(form) {
     try {
       await toast.promise(
         fetch("http://localhost:3001/adotar", {
@@ -40,10 +46,11 @@ const AdoptaMeCard = (props) => {
         }),
         {
           pending: "Promise is pending",
-          success: "Adoção bem sucedida",
+          success: "Solicitação enviada com sucesso",
           error: "Ocurreu um erro",
         }
       );
+      reset({ name: "", email: "", telephoneNumber: "" });
     } catch (error) {
     } finally {
       handleCloseModal();
@@ -73,37 +80,41 @@ const AdoptaMeCard = (props) => {
         <div className="adota-me-modal-container">
           <h1>você vai adotar: {props.titulo}</h1>
           <img src={props.imagen} alt="imagen" />
-          <form className="adota-me-modal-form" onSubmit={postsPet}>
+          <form
+            className="adota-me-modal-form"
+            onSubmit={handleSubmit(postsPet)}
+          >
             <label>Nome:</label>
             <input
               className="adota-me-modal-form-input"
               type="text"
               name="name"
+              {...register("name")}
               placeholder="Escreva seu nome"
-              onChange={handleChange}
-              required
             ></input>
+            <p>{errors.name?.message}</p>
 
             <label>E-mail:</label>
             <input
               className="adota-me-modal-form-input"
               type="email"
               name="email"
+              {...register("email")}
               placeholder="Escreva seu Email"
-              onChange={handleChange}
-              required
             ></input>
+            <p>{errors.email?.message}</p>
 
             <label>telefone:</label>
             <input
               type="tel"
               name="telephoneNumber"
+              {...register("telephoneNumber")}
               className="adota-me-modal-form-input"
               placeholder="Deixa aquí seu telefone..."
-              onChange={handleChange}
-              required
               pattern="^[0-9]+"
+              title="apenas números permitidos"
             />
+            <p>{errors.telephoneNumber?.message}</p>
 
             <button>confirmar</button>
           </form>

@@ -76,10 +76,6 @@ const SeusPedidosCard = ({
       <div className="seus-pedidos-card">
         <img src={imagem} className="seus-pedidos-photo pokemon-photo" />
         <div className="seus-pedidos-card-content">
-          <div className="seus-pedidos-a-caminho">
-            a caminho da entrega
-            <TbTruckDelivery />
-          </div>
           <p className="seus-pedidos-text-description">
             Quantidade: {quantity}
           </p>

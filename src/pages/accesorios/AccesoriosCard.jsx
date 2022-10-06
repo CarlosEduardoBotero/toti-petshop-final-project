@@ -87,7 +87,7 @@ const AccesoriosCard = (props) => {
       </div>
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
         <div className="accesorios-card-modal-container">
-          <h1>Confirme sua compra</h1>
+          <h1>Adicionar ao carrinho de compras</h1>
 
           <div className="accesorios-card-modal-confirmation-card">
             <img src={props.imagem} />
