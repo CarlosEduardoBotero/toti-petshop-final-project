@@ -4,7 +4,7 @@ import Home from "./pages/Home/Home";
 import AdoptaMe from "./pages/adoptaMe/AdoptaMe";
 import Accesorios from "./pages/accesorios/Accesorios.";
 import NavBar from "./layouts/NavBar/NavBar";
-import AcercaDe from "./AcercaDe/AcercaDe";
+import AcercaDe from "./pages/AcercaDe/AcercaDe";
 import PetConfirmation from "./pages/PetConfimation/PetConfirmation";
 import SeusPedidos from "./pages/SeusPedidos/SeusPedidos";
 import { ToastContainer } from "react-toastify";
